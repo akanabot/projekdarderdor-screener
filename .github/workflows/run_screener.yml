@@ -1,0 +1,41 @@
+name: Run IHSG Screener
+
+on:
+  schedule:
+    - cron: '30 7 * * 1-5'   # 14:30 WIB (Senin–Jumat)
+    - cron: '0 8 * * 1-5'    # 15:00 WIB
+    - cron: '30 8 * * 1-5'   # 15:30 WIB
+  workflow_dispatch:           # trigger manual via GitHub UI
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    # Wajib ditambahkan agar bot diizinkan menyimpan file result.json ke repo Anda
+    permissions:
+      contents: write 
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r screener/requirements.txt
+
+      - name: Run screener
+        run: python screener/screen.py
+
+      - name: Commit result
+        run: |
+          git config user.name "screener-bot"
+          git config user.email "bot@ihsg-screener.local"
+          git add data/result.json
+          git diff --staged --quiet || git commit -m "chore: update screener result $(date +'%Y-%m-%d %H:%M WIB')"
+          git push

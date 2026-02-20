@@ -1,0 +1,14 @@
+{
+    "last_updated": "2026-02-21 05:44:18 WIB",
+    "total_screened": 44,
+    "data": [
+        {
+            "ticker": "AMRT",
+            "harga": 1815.0,
+            "skor": 55,
+            "rsi": 45.0,
+            "vol_ratio": 1.8,
+            "signal": "\ud83d\udfe1 Moderate"
+        }
+    ]
+}
