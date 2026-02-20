@@ -27,7 +27,9 @@ jobs:
           cache: "pip"
 
       - name: Install dependencies
-        run: pip install -r screener/requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install yfinance==0.2.40 pandas==2.2.0 pandas-ta==0.3.14b0 numpy==1.26.4
 
       - name: Run screener
         run: python screener/screen.py
