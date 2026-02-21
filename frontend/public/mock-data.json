@@ -1,0 +1,103 @@
+{
+  "history": [
+    {
+      "date": "2026-02-19",
+      "metadata": {
+        "generated_at": "2026-02-19T15:30:00+07:00",
+        "status": "ok"
+      },
+      "results": [
+        {
+          "ticker": "BBCA.JK",
+          "ticker_display": "BBCA",
+          "price_close": 9850,
+          "price_change_pct": -0.5,
+          "score": 55,
+          "signal": "MODERATE",
+          "rsi_14": 45.2,
+          "volume_ratio": 1.4,
+          "outcome": "LOSS",
+          "actual_gain_pct": -0.2
+        }
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "metadata": {
+        "generated_at": "2026-02-20T15:30:00+07:00",
+        "status": "ok"
+      },
+      "results": [
+        {
+          "ticker": "BMRI.JK",
+          "ticker_display": "BMRI",
+          "price_close": 7200,
+          "price_change_pct": 2.1,
+          "score": 85,
+          "signal": "STRONG",
+          "rsi_14": 52.1,
+          "volume_ratio": 3.2,
+          "outcome": "WIN",
+          "actual_gain_pct": 1.5
+        },
+        {
+          "ticker": "BBNI.JK",
+          "ticker_display": "BBNI",
+          "price_close": 5400,
+          "price_change_pct": 1.2,
+          "score": 75,
+          "signal": "STRONG",
+          "rsi_14": 48.5,
+          "volume_ratio": 2.1,
+          "outcome": "LOSS",
+          "actual_gain_pct": 0.5
+        }
+      ]
+    },
+    {
+      "date": "2026-02-21",
+      "metadata": {
+        "generated_at": "2026-02-21T15:30:00+07:00",
+        "status": "ok"
+      },
+      "results": [
+        {
+          "ticker": "BBRI.JK",
+          "ticker_display": "BBRI",
+          "price_close": 4820,
+          "price_change_pct": 4.5,
+          "score": 92,
+          "signal": "STRONG",
+          "rsi_14": 58.0,
+          "volume_ratio": 4.5,
+          "outcome": "WIN",
+          "actual_gain_pct": 2.1
+        },
+        {
+          "ticker": "GOTO.JK",
+          "ticker_display": "GOTO",
+          "price_close": 82,
+          "price_change_pct": 6.1,
+          "score": 88,
+          "signal": "STRONG",
+          "rsi_14": 42.1,
+          "volume_ratio": 5.0,
+          "outcome": "WIN",
+          "actual_gain_pct": 3.5
+        },
+        {
+          "ticker": "ASII.JK",
+          "ticker_display": "ASII",
+          "price_close": 5100,
+          "price_change_pct": -1.2,
+          "score": 52,
+          "signal": "MODERATE",
+          "rsi_14": 38.5,
+          "volume_ratio": 1.5,
+          "outcome": "LOSS",
+          "actual_gain_pct": -1.0
+        }
+      ]
+    }
+  ]
+}
