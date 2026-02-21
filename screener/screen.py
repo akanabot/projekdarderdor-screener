@@ -12,7 +12,7 @@ from indicators import calculate_indicators
 from scoring import calculate_score, get_signal
 
 def run_screener():
-    tickers = get_universe()
+    tickers = get_universe() # Memanggil fungsi dari universe.py
     results = []
     fetch_errors = []
     
@@ -22,14 +22,23 @@ def run_screener():
         success = False
         for attempt in range(config.MAX_RETRY):
             try:
+                # Ambil data
                 df = yf.download(ticker, period=config.HISTORY_PERIOD, interval=config.DATA_INTERVAL, progress=False)
+                
+                # --- JEDA UNTUK KEAMANAN (ANTI-BOT) ---
+                time.sleep(0.5) 
+                
                 if df.empty or len(df) < 30:
-                    raise ValueError("Data tidak cukup (< 30 hari)")
+                    raise ValueError("Data kosong/tidak cukup")
+                
+                # Perbaikan MultiIndex jika diperlukan
                 if isinstance(df.columns, pd.MultiIndex):
                     df.columns = df.columns.droplevel(1)
+                
                 success = True
                 break
             except Exception as e:
+                print(f"Gagal ambil {ticker} (Percobaan {attempt+1}): {e}")
                 time.sleep(config.RETRY_DELAY_SEC)
         
         if not success:
