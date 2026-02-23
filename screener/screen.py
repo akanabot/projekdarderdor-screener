@@ -12,7 +12,7 @@ from indicators import calculate_indicators
 from scoring import calculate_score, get_signal
 
 def run_screener():
-    tickers = get_universe() # Memanggil fungsi dari universe.py
+    tickers = get_universe() 
     results = []
     fetch_errors = []
     
@@ -22,16 +22,12 @@ def run_screener():
         success = False
         for attempt in range(config.MAX_RETRY):
             try:
-                # Ambil data
                 df = yf.download(ticker, period=config.HISTORY_PERIOD, interval=config.DATA_INTERVAL, progress=False)
-                
-                # --- JEDA UNTUK KEAMANAN (ANTI-BOT) ---
                 time.sleep(0.5) 
                 
                 if df.empty or len(df) < 30:
                     raise ValueError("Data kosong/tidak cukup")
                 
-                # Perbaikan MultiIndex jika diperlukan
                 if isinstance(df.columns, pd.MultiIndex):
                     df.columns = df.columns.droplevel(1)
                 
@@ -50,10 +46,6 @@ def run_screener():
             today = df.iloc[-1]
             yesterday = df.iloc[-2]
             
-            if pd.isna(today[f'RSI_{config.RSI_PERIOD}']) or pd.isna(today[f'EMA_{config.EMA_PERIOD}']):
-                fetch_errors.append(ticker)
-                continue
-
             price_close = int(today['Close'])
             vol_today = int(today['Volume_Lot'])
             vol_avg = int(today['Avg_Vol_20_Lot'])
@@ -65,109 +57,61 @@ def run_screener():
             
             price_prev = int(yesterday['Close'])
             change_pct = round(((price_close - price_prev) / price_prev) * 100, 2)
-            ema20 = round(float(today[f'EMA_{config.EMA_PERIOD}']), 2)
-            price_vs_ema_pct = round(((price_close - ema20) / ema20) * 100, 2)
-
             score = calculate_score(today, yesterday)
             signal = get_signal(score)
             
             if signal == "WEAK" or not pass_hard:
                 continue
 
-            macd_col = f'MACDh_{config.MACD_FAST}_{config.MACD_SLOW}_{config.MACD_SIGNAL}'
-            
             results.append({
                 "ticker": ticker,
                 "ticker_display": ticker.replace(".JK", ""),
                 "price_close": price_close,
-                "price_prev_close": price_prev,
                 "price_change_pct": change_pct,
-                "volume_today": vol_today * 100,
-                "volume_avg_20d": vol_avg * 100,
                 "volume_ratio": round(vol_today / vol_avg, 1),
                 "rsi_14": round(float(today[f'RSI_{config.RSI_PERIOD}']), 1),
-                "ema_20": ema20,
-                "price_vs_ema_pct": price_vs_ema_pct,
-                "macd_histogram": round(float(today[macd_col]), 3),
-                "bb_upper": round(float(today[f'BBU_{config.BB_PERIOD}_{config.BB_STD}']), 1),
-                "bb_middle": round(float(today[f'BBM_{config.BB_PERIOD}_{config.BB_STD}']), 1),
-                "bb_lower": round(float(today[f'BBL_{config.BB_PERIOD}_{config.BB_STD}']), 1),
                 "score": score,
                 "signal": signal,
-                "pass_hard_filter": pass_hard
+                "outcome": "PENDING" # Untuk evaluasi winrate nantinya
             })
-
         except Exception as e:
-            print(f"Error proses {ticker}: {str(e)}")
             fetch_errors.append(ticker)
 
-    results = sorted(results, key=lambda x: x['score'], reverse=True)
-
-    total_screened = len(tickers)
-    error_count = len(fetch_errors)
-    
-    if error_count / total_screened > config.FAIL_THRESHOLD_PCT:
-        status = "error"
-        print("CRITICAL: Gagal total (>50% ticker gagal). JSON tidak di-overwrite.")
-        return
-    elif error_count > 0:
-        status = "partial"
-    else:
-        status = "ok"
-
+    # Metadata & Status
     wib_tz = timezone(timedelta(hours=7))
     now = datetime.now(wib_tz)
     today_str = now.strftime("%Y-%m-%d")
+    status = "ok" if len(fetch_errors) == 0 else "partial"
 
     daily_entry = {
         "date": today_str,
         "metadata": {
             "generated_at": now.strftime("%Y-%m-%dT%H:%M:%S+07:00"),
-            "generated_by": "github-actions",
-            "total_screened": total_screened,
-            "total_passed": len(results),
-            "fetch_errors": fetch_errors,
-            "data_date": today_str,
-            "status": status
+            "status": status,
+            "total_passed": len(results)
         },
-        "results": results
+        "results": sorted(results, key=lambda x: x['score'], reverse=True)
     }
 
-    os.makedirs(os.path.dirname(config.OUTPUT_PATH), exist_ok=True)
-    save_path = f"../{config.OUTPUT_PATH}" if not os.path.exists(config.OUTPUT_PATH) else config.OUTPUT_PATH
+    # --- LOGIKA PENULISAN FILE (FIX) ---
+    save_path = "data/result.json" # Pastikan path sesuai dengan struktur repo
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
 
-# ... (kode bagian atas tetap sama hingga variabel save_path)
-
-    # --- PERBAIKAN: LOGIKA PENULISAN FILE ---
     final_data = {"history": []}
-    
-    # 1. Cek jika file sudah ada, baca data lamanya
     if os.path.exists(save_path):
-        try:
-            with open(save_path, 'r') as f:
-                content = json.load(f)
-                # Pastikan formatnya memiliki key "history"
-                if isinstance(content, dict) and "history" in content:
-                    final_data["history"] = content["history"]
-        except Exception as e:
-            print(f"Peringatan: Gagal membaca file lama, membuat data baru. Error: {e}")
+        with open(save_path, 'r') as f:
+            try:
+                old_data = json.load(f)
+                final_data["history"] = old_data.get("history", [])
+            except: pass
 
-    # 2. Update atau Tambah data hari ini
-    # Menghapus data dengan tanggal yang sama (jika running ulang di jam 15:00 agar tidak duplikat)
+    # Timpa data hari ini jika sudah ada (mencegah duplikat saat run berkali-kali)
     final_data["history"] = [h for h in final_data["history"] if h["date"] != today_str]
-    
-    # Tambahkan hasil terbaru ke dalam history
     final_data["history"].append(daily_entry)
 
-    # 3. Urutkan history agar tanggal terbaru selalu di urutan terakhir (opsional)
-    final_data["history"] = sorted(final_data["history"], key=lambda x: x['date'])
-
-    # 4. Tulis kembali ke file
     with open(save_path, 'w') as f:
         json.dump(final_data, f, indent=2)
-    
-    print(f"BERHASIL: File {save_path} telah di-overwrite. Total hasil: {len(results)} saham.")
+    print(f"Sukses update data untuk {today_str}")
 
-# Tambahkan pemanggil fungsi di akhir file agar script bisa berjalan
 if __name__ == "__main__":
     run_screener()
