@@ -134,4 +134,4 @@ def run_screener():
     }
 
     os.makedirs(os.path.dirname(config.OUTPUT_PATH), exist_ok=True)
-    save_path = f"../{config.OUTPUT_PATH}" if not os.path.exists(config.OUTPUT_PATH)
+    save_path = f"../{config.OUTPUT_PATH}" if not os.path.exists(config.OUTPUT_PATH) else config.OUTPUT_PATH
