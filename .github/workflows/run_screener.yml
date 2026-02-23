@@ -2,14 +2,15 @@ name: Run IHSG Screener
 
 on:
   schedule:
-    # Berjalan Senin-Jumat (1-5)
+    # Waktu UTC (WIB - 7 jam)
     - cron: '30 7 * * 1-5'   # 14:30 WIB
     - cron: '45 7 * * 1-5'   # 14:45 WIB
     - cron: '00 8 * * 1-5'   # 15:00 WIB
     - cron: '15 8 * * 1-5'   # 15:15 WIB
     - cron: '30 8 * * 1-5'   # 15:30 WIB
     - cron: '45 8 * * 1-5'   # 15:45 WIB
-  workflow_dispatch:         # Agar tetap bisa klik tombol "Run" manual
+    - cron: '00 9 * * 1-5'
+  workflow_dispatch:
 
 jobs:
   screen:
@@ -21,30 +22,21 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Setup Python 3.12
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: "pip"
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: pip install yfinance pandas pandas-ta pytz
 
-      - name: Run screener
+      - name: Run Screener
         run: python screener/screen.py
 
-      - name: Commit result
+      - name: Commit and Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Memastikan folder data ada
-          mkdir -p data
           git add data/result.json
-          
-          if git diff --staged --quiet; then
-            echo "Tidak ada perubahan data."
-          else
-            git commit -m "chore: update data $(date +'%H:%M') WIB"
-            git push
-          fi
+          # Hanya push jika ada perubahan data
+          git diff --staged --quiet || (git commit -m "update data $(date +'%H:%M') WIB" && git push)
