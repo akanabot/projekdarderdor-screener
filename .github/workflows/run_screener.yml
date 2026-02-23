@@ -2,21 +2,20 @@ name: Run IHSG Screener
 
 on:
   schedule:
-    - cron: '30 7 * * 1-5'   # 14:30 WIB (Senin–Jumat)
-    - cron: '0 8 * * 1-5'    # 15:00 WIB
+    # Berjalan Senin-Jumat (1-5)
+    - cron: '30 7 * * 1-5'   # 14:30 WIB
+    - cron: '45 7 * * 1-5'   # 14:45 WIB
+    - cron: '00 8 * * 1-5'   # 15:00 WIB
+    - cron: '15 8 * * 1-5'   # 15:15 WIB
     - cron: '30 8 * * 1-5'   # 15:30 WIB
-  workflow_dispatch:           # trigger manual via GitHub UI
+    - cron: '45 8 * * 1-5'   # 15:45 WIB
+  workflow_dispatch:         # Agar tetap bisa klik tombol "Run" manual
 
 jobs:
   screen:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
-    
-    # Wajib ditambahkan agar bot diizinkan menyimpan file result.json ke repo Anda
     permissions:
       contents: write 
-
-    # ... (bagian atas name, schedule, jobs tetap sama)
 
     steps:
       - name: Checkout repo
@@ -39,13 +38,13 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Gunakan path yang lebih luas untuk memastikan file terdeteksi
-          git add data/*.json || echo "No data file found"
+          # Memastikan folder data ada
+          mkdir -p data
+          git add data/result.json
           
-          # Hanya commit jika ada perubahan (mencegah error jika data sama)
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "Tidak ada perubahan data."
           else
-            git commit -m "chore: update screener result $(date +'%Y-%m-%d %H:%M WIB')"
+            git commit -m "chore: update data $(date +'%H:%M') WIB"
             git push
           fi
