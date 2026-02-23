@@ -135,3 +135,39 @@ def run_screener():
 
     os.makedirs(os.path.dirname(config.OUTPUT_PATH), exist_ok=True)
     save_path = f"../{config.OUTPUT_PATH}" if not os.path.exists(config.OUTPUT_PATH) else config.OUTPUT_PATH
+
+# ... (kode bagian atas tetap sama hingga variabel save_path)
+
+    # --- PERBAIKAN: LOGIKA PENULISAN FILE ---
+    final_data = {"history": []}
+    
+    # 1. Cek jika file sudah ada, baca data lamanya
+    if os.path.exists(save_path):
+        try:
+            with open(save_path, 'r') as f:
+                content = json.load(f)
+                # Pastikan formatnya memiliki key "history"
+                if isinstance(content, dict) and "history" in content:
+                    final_data["history"] = content["history"]
+        except Exception as e:
+            print(f"Peringatan: Gagal membaca file lama, membuat data baru. Error: {e}")
+
+    # 2. Update atau Tambah data hari ini
+    # Menghapus data dengan tanggal yang sama (jika running ulang di jam 15:00 agar tidak duplikat)
+    final_data["history"] = [h for h in final_data["history"] if h["date"] != today_str]
+    
+    # Tambahkan hasil terbaru ke dalam history
+    final_data["history"].append(daily_entry)
+
+    # 3. Urutkan history agar tanggal terbaru selalu di urutan terakhir (opsional)
+    final_data["history"] = sorted(final_data["history"], key=lambda x: x['date'])
+
+    # 4. Tulis kembali ke file
+    with open(save_path, 'w') as f:
+        json.dump(final_data, f, indent=2)
+    
+    print(f"BERHASIL: File {save_path} telah di-overwrite. Total hasil: {len(results)} saham.")
+
+# Tambahkan pemanggil fungsi di akhir file agar script bisa berjalan
+if __name__ == "__main__":
+    run_screener()
