@@ -46,7 +46,7 @@
     {
       "date": "2026-02-24",
       "metadata": {
-        "generated_at": "2026-02-24T15:30:10+07:00",
+        "generated_at": "2026-02-24T15:58:17+07:00",
         "status": "partial",
         "total_passed": 2
       },
@@ -54,22 +54,22 @@
         {
           "ticker": "PTPP.JK",
           "ticker_display": "PTPP",
-          "price_close": 370,
-          "price_change_pct": 5.71,
-          "volume_ratio": 2.9,
-          "rsi_14": 54.9,
-          "score": 80,
-          "signal": "STRONG",
+          "price_close": 372,
+          "price_change_pct": 6.29,
+          "volume_ratio": 3.5,
+          "rsi_14": 55.7,
+          "score": 68,
+          "signal": "MODERATE",
           "outcome": "PENDING"
         },
         {
           "ticker": "ERAA.JK",
           "ticker_display": "ERAA",
-          "price_close": 430,
-          "price_change_pct": 0.47,
+          "price_close": 428,
+          "price_change_pct": 0.0,
           "volume_ratio": 1.5,
-          "rsi_14": 59.1,
-          "score": 51,
+          "rsi_14": 58.0,
+          "score": 53,
           "signal": "MODERATE",
           "outcome": "PENDING"
         }
