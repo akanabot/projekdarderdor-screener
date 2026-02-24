@@ -46,9 +46,9 @@
     {
       "date": "2026-02-24",
       "metadata": {
-        "generated_at": "2026-02-24T16:08:10+07:00",
+        "generated_at": "2026-02-24T16:29:10+07:00",
         "status": "partial",
-        "total_passed": 2
+        "total_passed": 3
       },
       "results": [
         {
@@ -56,7 +56,7 @@
           "ticker_display": "PTPP",
           "price_close": 374,
           "price_change_pct": 6.86,
-          "volume_ratio": 3.5,
+          "volume_ratio": 3.6,
           "rsi_14": 56.5,
           "score": 78,
           "signal": "STRONG",
@@ -69,6 +69,17 @@
           "price_change_pct": 0.0,
           "volume_ratio": 1.6,
           "rsi_14": 58.0,
+          "score": 53,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "ISAT.JK",
+          "ticker_display": "ISAT",
+          "price_close": 2330,
+          "price_change_pct": 0.0,
+          "volume_ratio": 1.6,
+          "rsi_14": 60.0,
           "score": 53,
           "signal": "MODERATE",
           "outcome": "PENDING"
