@@ -153,9 +153,9 @@
     {
       "date": "2026-02-27",
       "metadata": {
-        "generated_at": "2026-02-27T16:08:22+07:00",
+        "generated_at": "2026-02-27T16:27:49+07:00",
         "status": "partial",
-        "total_passed": 1
+        "total_passed": 2
       },
       "results": [
         {
@@ -163,9 +163,20 @@
           "ticker_display": "ACES",
           "price_close": 400,
           "price_change_pct": 1.01,
-          "volume_ratio": 2.2,
+          "volume_ratio": 4.9,
           "rsi_14": 45.5,
-          "score": 67,
+          "score": 75,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "UNVR.JK",
+          "ticker_display": "UNVR",
+          "price_close": 2380,
+          "price_change_pct": 3.03,
+          "volume_ratio": 1.8,
+          "rsi_14": 56.9,
+          "score": 63,
           "signal": "MODERATE",
           "outcome": "PENDING"
         }
