@@ -181,6 +181,60 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-03-02",
+      "metadata": {
+        "generated_at": "2026-03-02T15:03:00+07:00",
+        "status": "partial",
+        "total_passed": 4
+      },
+      "results": [
+        {
+          "ticker": "LSIP.JK",
+          "ticker_display": "LSIP",
+          "price_close": 1240,
+          "price_change_pct": 5.53,
+          "volume_ratio": 3.7,
+          "rsi_14": 65.6,
+          "score": 68,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "AKRA.JK",
+          "ticker_display": "AKRA",
+          "price_close": 1335,
+          "price_change_pct": 3.09,
+          "volume_ratio": 2.7,
+          "rsi_14": 56.5,
+          "score": 60,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "PTBA.JK",
+          "ticker_display": "PTBA",
+          "price_close": 2700,
+          "price_change_pct": 3.85,
+          "volume_ratio": 2.2,
+          "rsi_14": 67.5,
+          "score": 60,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "MEDC.JK",
+          "ticker_display": "MEDC",
+          "price_close": 1830,
+          "price_change_pct": 6.09,
+          "volume_ratio": 3.6,
+          "rsi_14": 70.9,
+          "score": 53,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
