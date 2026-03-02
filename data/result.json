@@ -185,7 +185,7 @@
     {
       "date": "2026-03-02",
       "metadata": {
-        "generated_at": "2026-03-02T15:03:00+07:00",
+        "generated_at": "2026-03-02T15:27:19+07:00",
         "status": "partial",
         "total_passed": 4
       },
@@ -193,10 +193,10 @@
         {
           "ticker": "LSIP.JK",
           "ticker_display": "LSIP",
-          "price_close": 1240,
-          "price_change_pct": 5.53,
-          "volume_ratio": 3.7,
-          "rsi_14": 65.6,
+          "price_close": 1235,
+          "price_change_pct": 5.11,
+          "volume_ratio": 3.8,
+          "rsi_14": 64.7,
           "score": 68,
           "signal": "MODERATE",
           "outcome": "PENDING"
@@ -204,33 +204,33 @@
         {
           "ticker": "AKRA.JK",
           "ticker_display": "AKRA",
-          "price_close": 1335,
-          "price_change_pct": 3.09,
+          "price_close": 1345,
+          "price_change_pct": 3.86,
           "volume_ratio": 2.7,
-          "rsi_14": 56.5,
-          "score": 60,
-          "signal": "MODERATE",
-          "outcome": "PENDING"
-        },
-        {
-          "ticker": "PTBA.JK",
-          "ticker_display": "PTBA",
-          "price_close": 2700,
-          "price_change_pct": 3.85,
-          "volume_ratio": 2.2,
-          "rsi_14": 67.5,
-          "score": 60,
+          "rsi_14": 57.7,
+          "score": 65,
           "signal": "MODERATE",
           "outcome": "PENDING"
         },
         {
           "ticker": "MEDC.JK",
           "ticker_display": "MEDC",
-          "price_close": 1830,
-          "price_change_pct": 6.09,
-          "volume_ratio": 3.6,
-          "rsi_14": 70.9,
-          "score": 53,
+          "price_close": 1855,
+          "price_change_pct": 7.54,
+          "volume_ratio": 4.0,
+          "rsi_14": 72.1,
+          "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "PTBA.JK",
+          "ticker_display": "PTBA",
+          "price_close": 2720,
+          "price_change_pct": 4.62,
+          "volume_ratio": 2.5,
+          "rsi_14": 68.9,
+          "score": 55,
           "signal": "MODERATE",
           "outcome": "PENDING"
         }
