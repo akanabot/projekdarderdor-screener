@@ -257,6 +257,38 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-03-03",
+      "metadata": {
+        "generated_at": "2026-03-03T15:01:23+07:00",
+        "status": "partial",
+        "total_passed": 2
+      },
+      "results": [
+        {
+          "ticker": "HRUM.JK",
+          "ticker_display": "HRUM",
+          "price_close": 1170,
+          "price_change_pct": -2.5,
+          "volume_ratio": 2.2,
+          "rsi_14": 51.8,
+          "score": 65,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "PTBA.JK",
+          "ticker_display": "PTBA",
+          "price_close": 2900,
+          "price_change_pct": 5.45,
+          "volume_ratio": 4.1,
+          "rsi_14": 77.9,
+          "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
