@@ -261,18 +261,18 @@
     {
       "date": "2026-03-03",
       "metadata": {
-        "generated_at": "2026-03-03T15:52:21+07:00",
+        "generated_at": "2026-03-03T16:01:04+07:00",
         "status": "partial",
-        "total_passed": 2
+        "total_passed": 3
       },
       "results": [
         {
           "ticker": "HRUM.JK",
           "ticker_display": "HRUM",
-          "price_close": 1180,
-          "price_change_pct": -1.67,
+          "price_close": 1185,
+          "price_change_pct": -1.25,
           "volume_ratio": 2.4,
-          "rsi_14": 52.8,
+          "rsi_14": 53.3,
           "score": 65,
           "signal": "MODERATE",
           "outcome": "PENDING"
@@ -282,9 +282,20 @@
           "ticker_display": "PTBA",
           "price_close": 2910,
           "price_change_pct": 5.82,
-          "volume_ratio": 4.5,
+          "volume_ratio": 4.6,
           "rsi_14": 78.3,
           "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "ACES.JK",
+          "ticker_display": "ACES",
+          "price_close": 398,
+          "price_change_pct": 2.05,
+          "volume_ratio": 1.8,
+          "rsi_14": 46.1,
+          "score": 55,
           "signal": "MODERATE",
           "outcome": "PENDING"
         }
