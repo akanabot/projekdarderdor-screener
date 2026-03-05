@@ -313,7 +313,7 @@
     {
       "date": "2026-03-05",
       "metadata": {
-        "generated_at": "2026-03-05T16:08:09+07:00",
+        "generated_at": "2026-03-05T16:30:36+07:00",
         "status": "partial",
         "total_passed": 1
       },
@@ -321,10 +321,10 @@
         {
           "ticker": "PTBA.JK",
           "ticker_display": "PTBA",
-          "price_close": 2930,
-          "price_change_pct": 2.45,
-          "volume_ratio": 2.1,
-          "rsi_14": 74.5,
+          "price_close": 2970,
+          "price_change_pct": 3.85,
+          "volume_ratio": 2.4,
+          "rsi_14": 75.9,
           "score": 55,
           "signal": "MODERATE",
           "outcome": "PENDING"
