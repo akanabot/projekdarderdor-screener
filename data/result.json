@@ -343,29 +343,18 @@
     {
       "date": "2026-03-09",
       "metadata": {
-        "generated_at": "2026-03-09T15:54:21+07:00",
+        "generated_at": "2026-03-09T16:03:10+07:00",
         "status": "partial",
-        "total_passed": 2
+        "total_passed": 1
       },
       "results": [
         {
-          "ticker": "MEDC.JK",
-          "ticker_display": "MEDC",
-          "price_close": 1715,
-          "price_change_pct": -2.83,
-          "volume_ratio": 1.5,
-          "rsi_14": 53.0,
-          "score": 55,
-          "signal": "MODERATE",
-          "outcome": "PENDING"
-        },
-        {
           "ticker": "SCMA.JK",
           "ticker_display": "SCMA",
-          "price_close": 230,
-          "price_change_pct": -4.96,
-          "volume_ratio": 2.1,
-          "rsi_14": 35.4,
+          "price_close": 232,
+          "price_change_pct": -4.13,
+          "volume_ratio": 2.2,
+          "rsi_14": 35.9,
           "score": 51,
           "signal": "MODERATE",
           "outcome": "PENDING"
