@@ -360,6 +360,15 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-03-10",
+      "metadata": {
+        "generated_at": "2026-03-10T15:00:32+07:00",
+        "status": "partial",
+        "total_passed": 0
+      },
+      "results": []
     }
   ]
 }
