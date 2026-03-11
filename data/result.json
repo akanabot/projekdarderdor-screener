@@ -373,7 +373,7 @@
     {
       "date": "2026-03-11",
       "metadata": {
-        "generated_at": "2026-03-11T16:08:26+07:00",
+        "generated_at": "2026-03-11T16:30:09+07:00",
         "status": "partial",
         "total_passed": 1
       },
@@ -381,10 +381,10 @@
         {
           "ticker": "TOBA.JK",
           "ticker_display": "TOBA",
-          "price_close": 620,
-          "price_change_pct": 8.77,
-          "volume_ratio": 2.2,
-          "rsi_14": 42.3,
+          "price_close": 615,
+          "price_change_pct": 7.89,
+          "volume_ratio": 2.3,
+          "rsi_14": 41.6,
           "score": 56,
           "signal": "MODERATE",
           "outcome": "PENDING"
