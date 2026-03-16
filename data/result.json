@@ -412,7 +412,7 @@
     {
       "date": "2026-03-16",
       "metadata": {
-        "generated_at": "2026-03-16T15:41:04+07:00",
+        "generated_at": "2026-03-16T16:05:22+07:00",
         "status": "partial",
         "total_passed": 2
       },
@@ -422,7 +422,7 @@
           "ticker_display": "SCMA",
           "price_close": 274,
           "price_change_pct": 7.03,
-          "volume_ratio": 1.8,
+          "volume_ratio": 1.9,
           "rsi_14": 48.9,
           "score": 73,
           "signal": "STRONG",
@@ -433,7 +433,7 @@
           "ticker_display": "BBNI",
           "price_close": 4320,
           "price_change_pct": 1.89,
-          "volume_ratio": 1.7,
+          "volume_ratio": 1.9,
           "rsi_14": 46.1,
           "score": 55,
           "signal": "MODERATE",
