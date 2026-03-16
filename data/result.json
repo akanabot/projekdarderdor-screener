@@ -408,6 +408,38 @@
         "total_passed": 0
       },
       "results": []
+    },
+    {
+      "date": "2026-03-16",
+      "metadata": {
+        "generated_at": "2026-03-16T15:37:51+07:00",
+        "status": "partial",
+        "total_passed": 2
+      },
+      "results": [
+        {
+          "ticker": "SCMA.JK",
+          "ticker_display": "SCMA",
+          "price_close": 274,
+          "price_change_pct": 7.03,
+          "volume_ratio": 1.8,
+          "rsi_14": 48.9,
+          "score": 73,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BBNI.JK",
+          "ticker_display": "BBNI",
+          "price_close": 4330,
+          "price_change_pct": 2.12,
+          "volume_ratio": 1.7,
+          "rsi_14": 46.9,
+          "score": 55,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
