@@ -444,7 +444,7 @@
     {
       "date": "2026-03-17",
       "metadata": {
-        "generated_at": "2026-03-17T16:00:48+07:00",
+        "generated_at": "2026-03-17T16:09:06+07:00",
         "status": "partial",
         "total_passed": 1
       },
@@ -452,10 +452,10 @@
         {
           "ticker": "BBNI.JK",
           "ticker_display": "BBNI",
-          "price_close": 4360,
-          "price_change_pct": 0.93,
+          "price_close": 4370,
+          "price_change_pct": 1.16,
           "volume_ratio": 1.8,
-          "rsi_14": 50.1,
+          "rsi_14": 50.9,
           "score": 80,
           "signal": "STRONG",
           "outcome": "PENDING"
