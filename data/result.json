@@ -636,7 +636,7 @@
     {
       "date": "2026-03-25",
       "metadata": {
-        "generated_at": "2026-03-25T15:06:53+07:00",
+        "generated_at": "2026-03-25T15:32:35+07:00",
         "status": "partial",
         "total_passed": 6
       },
@@ -644,11 +644,22 @@
         {
           "ticker": "ASII.JK",
           "ticker_display": "ASII",
-          "price_close": 6375,
-          "price_change_pct": 9.91,
-          "volume_ratio": 2.2,
-          "rsi_14": 52.5,
-          "score": 82,
+          "price_close": 6475,
+          "price_change_pct": 11.64,
+          "volume_ratio": 2.3,
+          "rsi_14": 54.6,
+          "score": 80,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BBNI.JK",
+          "ticker_display": "BBNI",
+          "price_close": 4020,
+          "price_change_pct": -0.5,
+          "volume_ratio": 2.4,
+          "rsi_14": 53.0,
+          "score": 77,
           "signal": "STRONG",
           "outcome": "PENDING"
         },
@@ -657,7 +668,7 @@
           "ticker_display": "TLKM",
           "price_close": 3270,
           "price_change_pct": 7.21,
-          "volume_ratio": 1.4,
+          "volume_ratio": 1.5,
           "rsi_14": 49.6,
           "score": 63,
           "signal": "MODERATE",
@@ -666,32 +677,21 @@
         {
           "ticker": "BBCA.JK",
           "ticker_display": "BBCA",
-          "price_close": 6850,
-          "price_change_pct": 1.11,
-          "volume_ratio": 1.7,
-          "rsi_14": 40.3,
+          "price_close": 6875,
+          "price_change_pct": 1.48,
+          "volume_ratio": 1.8,
+          "rsi_14": 41.4,
           "score": 59,
-          "signal": "MODERATE",
-          "outcome": "PENDING"
-        },
-        {
-          "ticker": "BBNI.JK",
-          "ticker_display": "BBNI",
-          "price_close": 4050,
-          "price_change_pct": 0.25,
-          "volume_ratio": 2.3,
-          "rsi_14": 55.5,
-          "score": 57,
           "signal": "MODERATE",
           "outcome": "PENDING"
         },
         {
           "ticker": "BMRI.JK",
           "ticker_display": "BMRI",
-          "price_close": 4890,
-          "price_change_pct": 3.38,
-          "volume_ratio": 1.8,
-          "rsi_14": 47.3,
+          "price_close": 4880,
+          "price_change_pct": 3.17,
+          "volume_ratio": 2.0,
+          "rsi_14": 46.9,
           "score": 55,
           "signal": "MODERATE",
           "outcome": "PENDING"
