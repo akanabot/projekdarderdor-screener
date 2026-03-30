@@ -741,7 +741,7 @@
     {
       "date": "2026-03-30",
       "metadata": {
-        "generated_at": "2026-03-30T15:56:48+07:00",
+        "generated_at": "2026-03-30T16:01:18+07:00",
         "status": "partial",
         "total_passed": 1
       },
@@ -749,10 +749,10 @@
         {
           "ticker": "AKRA.JK",
           "ticker_display": "AKRA",
-          "price_close": 1420,
-          "price_change_pct": 4.8,
+          "price_close": 1430,
+          "price_change_pct": 5.54,
           "volume_ratio": 2.5,
-          "rsi_14": 66.8,
+          "rsi_14": 67.6,
           "score": 55,
           "signal": "MODERATE",
           "outcome": "PENDING"
