@@ -805,7 +805,7 @@
     {
       "date": "2026-04-01",
       "metadata": {
-        "generated_at": "2026-04-01T16:15:04+07:00",
+        "generated_at": "2026-04-01T16:22:46+07:00",
         "status": "partial",
         "total_passed": 3
       },
@@ -815,7 +815,7 @@
           "ticker_display": "MNCN",
           "price_close": 220,
           "price_change_pct": 6.8,
-          "volume_ratio": 2.0,
+          "volume_ratio": 2.1,
           "rsi_14": 51.8,
           "score": 87,
           "signal": "STRONG",
