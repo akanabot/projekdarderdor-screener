@@ -848,7 +848,7 @@
     {
       "date": "2026-04-02",
       "metadata": {
-        "generated_at": "2026-04-02T16:06:24+07:00",
+        "generated_at": "2026-04-02T16:15:20+07:00",
         "status": "partial",
         "total_passed": 1
       },
@@ -856,12 +856,12 @@
         {
           "ticker": "MNCN.JK",
           "ticker_display": "MNCN",
-          "price_close": 228,
-          "price_change_pct": 3.64,
+          "price_close": 232,
+          "price_change_pct": 5.45,
           "volume_ratio": 3.5,
-          "rsi_14": 57.9,
-          "score": 78,
-          "signal": "STRONG",
+          "rsi_14": 60.4,
+          "score": 63,
+          "signal": "MODERATE",
           "outcome": "PENDING"
         }
       ]
