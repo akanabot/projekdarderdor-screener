@@ -844,6 +844,27 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-04-02",
+      "metadata": {
+        "generated_at": "2026-04-02T15:34:59+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "MNCN.JK",
+          "ticker_display": "MNCN",
+          "price_close": 230,
+          "price_change_pct": 4.55,
+          "volume_ratio": 3.4,
+          "rsi_14": 59.1,
+          "score": 73,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
