@@ -932,7 +932,7 @@
     {
       "date": "2026-04-08",
       "metadata": {
-        "generated_at": "2026-04-08T15:47:20+07:00",
+        "generated_at": "2026-04-08T16:10:31+07:00",
         "status": "partial",
         "total_passed": 3
       },
@@ -940,10 +940,10 @@
         {
           "ticker": "BBYB.JK",
           "ticker_display": "BBYB",
-          "price_close": 332,
-          "price_change_pct": 12.93,
+          "price_close": 328,
+          "price_change_pct": 11.56,
           "volume_ratio": 1.9,
-          "rsi_14": 53.7,
+          "rsi_14": 52.5,
           "score": 68,
           "signal": "MODERATE",
           "outcome": "PENDING"
@@ -951,10 +951,10 @@
         {
           "ticker": "BRPT.JK",
           "ticker_display": "BRPT",
-          "price_close": 1745,
-          "price_change_pct": 19.52,
-          "volume_ratio": 2.4,
-          "rsi_14": 56.2,
+          "price_close": 1765,
+          "price_change_pct": 20.89,
+          "volume_ratio": 2.6,
+          "rsi_14": 56.9,
           "score": 65,
           "signal": "MODERATE",
           "outcome": "PENDING"
@@ -962,10 +962,10 @@
         {
           "ticker": "ANTM.JK",
           "ticker_display": "ANTM",
-          "price_close": 3710,
-          "price_change_pct": 6.92,
-          "volume_ratio": 1.4,
-          "rsi_14": 48.4,
+          "price_close": 3740,
+          "price_change_pct": 7.78,
+          "volume_ratio": 1.5,
+          "rsi_14": 49.3,
           "score": 58,
           "signal": "MODERATE",
           "outcome": "PENDING"
