@@ -932,7 +932,7 @@
     {
       "date": "2026-04-08",
       "metadata": {
-        "generated_at": "2026-04-08T16:10:31+07:00",
+        "generated_at": "2026-04-08T16:19:27+07:00",
         "status": "partial",
         "total_passed": 3
       },
@@ -940,12 +940,12 @@
         {
           "ticker": "BBYB.JK",
           "ticker_display": "BBYB",
-          "price_close": 328,
-          "price_change_pct": 11.56,
-          "volume_ratio": 1.9,
-          "rsi_14": 52.5,
-          "score": 68,
-          "signal": "MODERATE",
+          "price_close": 332,
+          "price_change_pct": 12.93,
+          "volume_ratio": 2.0,
+          "rsi_14": 53.7,
+          "score": 75,
+          "signal": "STRONG",
           "outcome": "PENDING"
         },
         {
@@ -953,7 +953,7 @@
           "ticker_display": "BRPT",
           "price_close": 1765,
           "price_change_pct": 20.89,
-          "volume_ratio": 2.6,
+          "volume_ratio": 2.7,
           "rsi_14": 56.9,
           "score": 65,
           "signal": "MODERATE",
