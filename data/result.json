@@ -932,52 +932,41 @@
     {
       "date": "2026-04-08",
       "metadata": {
-        "generated_at": "2026-04-08T15:41:43+07:00",
+        "generated_at": "2026-04-08T15:47:20+07:00",
         "status": "partial",
-        "total_passed": 4
+        "total_passed": 3
       },
       "results": [
         {
           "ticker": "BBYB.JK",
           "ticker_display": "BBYB",
-          "price_close": 330,
-          "price_change_pct": 12.24,
-          "volume_ratio": 1.8,
-          "rsi_14": 53.1,
+          "price_close": 332,
+          "price_change_pct": 12.93,
+          "volume_ratio": 1.9,
+          "rsi_14": 53.7,
           "score": 68,
-          "signal": "MODERATE",
-          "outcome": "PENDING"
-        },
-        {
-          "ticker": "TINS.JK",
-          "ticker_display": "TINS",
-          "price_close": 3750,
-          "price_change_pct": 7.14,
-          "volume_ratio": 1.4,
-          "rsi_14": 54.6,
-          "score": 61,
-          "signal": "MODERATE",
-          "outcome": "PENDING"
-        },
-        {
-          "ticker": "ANTM.JK",
-          "ticker_display": "ANTM",
-          "price_close": 3700,
-          "price_change_pct": 6.63,
-          "volume_ratio": 1.3,
-          "rsi_14": 48.1,
-          "score": 58,
           "signal": "MODERATE",
           "outcome": "PENDING"
         },
         {
           "ticker": "BRPT.JK",
           "ticker_display": "BRPT",
-          "price_close": 1730,
-          "price_change_pct": 18.49,
-          "volume_ratio": 2.3,
-          "rsi_14": 55.7,
-          "score": 55,
+          "price_close": 1745,
+          "price_change_pct": 19.52,
+          "volume_ratio": 2.4,
+          "rsi_14": 56.2,
+          "score": 65,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "ANTM.JK",
+          "ticker_display": "ANTM",
+          "price_close": 3710,
+          "price_change_pct": 6.92,
+          "volume_ratio": 1.4,
+          "rsi_14": 48.4,
+          "score": 58,
           "signal": "MODERATE",
           "outcome": "PENDING"
         }
