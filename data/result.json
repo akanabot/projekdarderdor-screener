@@ -971,6 +971,27 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-04-09",
+      "metadata": {
+        "generated_at": "2026-04-09T15:52:07+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "BRPT.JK",
+          "ticker_display": "BRPT",
+          "price_close": 1845,
+          "price_change_pct": 4.53,
+          "volume_ratio": 3.2,
+          "rsi_14": 57.2,
+          "score": 73,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
