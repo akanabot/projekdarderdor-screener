@@ -1013,6 +1013,38 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-04-13",
+      "metadata": {
+        "generated_at": "2026-04-13T16:19:05+07:00",
+        "status": "partial",
+        "total_passed": 2
+      },
+      "results": [
+        {
+          "ticker": "PWON.JK",
+          "ticker_display": "PWON",
+          "price_close": 344,
+          "price_change_pct": -1.71,
+          "volume_ratio": 2.6,
+          "rsi_14": 49.4,
+          "score": 70,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BRPT.JK",
+          "ticker_display": "BRPT",
+          "price_close": 2190,
+          "price_change_pct": 14.36,
+          "volume_ratio": 3.0,
+          "rsi_14": 69.4,
+          "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
