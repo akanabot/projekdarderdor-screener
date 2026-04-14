@@ -1049,7 +1049,7 @@
     {
       "date": "2026-04-14",
       "metadata": {
-        "generated_at": "2026-04-14T16:07:00+07:00",
+        "generated_at": "2026-04-14T16:26:25+07:00",
         "status": "partial",
         "total_passed": 3
       },
@@ -1068,10 +1068,10 @@
         {
           "ticker": "LSIP.JK",
           "ticker_display": "LSIP",
-          "price_close": 1585,
-          "price_change_pct": 2.26,
-          "volume_ratio": 3.3,
-          "rsi_14": 80.4,
+          "price_close": 1590,
+          "price_change_pct": 2.58,
+          "volume_ratio": 3.4,
+          "rsi_14": 80.6,
           "score": 63,
           "signal": "MODERATE",
           "outcome": "PENDING"
@@ -1079,10 +1079,10 @@
         {
           "ticker": "BRPT.JK",
           "ticker_display": "BRPT",
-          "price_close": 2430,
-          "price_change_pct": 10.96,
+          "price_close": 2440,
+          "price_change_pct": 11.42,
           "volume_ratio": 2.4,
-          "rsi_14": 74.0,
+          "rsi_14": 74.2,
           "score": 55,
           "signal": "MODERATE",
           "outcome": "PENDING"
