@@ -1045,6 +1045,49 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-04-14",
+      "metadata": {
+        "generated_at": "2026-04-14T16:00:55+07:00",
+        "status": "partial",
+        "total_passed": 3
+      },
+      "results": [
+        {
+          "ticker": "ERAA.JK",
+          "ticker_display": "ERAA",
+          "price_close": 400,
+          "price_change_pct": 3.09,
+          "volume_ratio": 2.1,
+          "rsi_14": 58.3,
+          "score": 65,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "LSIP.JK",
+          "ticker_display": "LSIP",
+          "price_close": 1585,
+          "price_change_pct": 2.26,
+          "volume_ratio": 3.3,
+          "rsi_14": 80.4,
+          "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BRPT.JK",
+          "ticker_display": "BRPT",
+          "price_close": 2430,
+          "price_change_pct": 10.96,
+          "volume_ratio": 2.3,
+          "rsi_14": 74.0,
+          "score": 55,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
