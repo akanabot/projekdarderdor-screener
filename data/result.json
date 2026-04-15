@@ -1088,6 +1088,38 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-04-15",
+      "metadata": {
+        "generated_at": "2026-04-15T16:01:12+07:00",
+        "status": "partial",
+        "total_passed": 2
+      },
+      "results": [
+        {
+          "ticker": "KLBF.JK",
+          "ticker_display": "KLBF",
+          "price_close": 995,
+          "price_change_pct": 1.53,
+          "volume_ratio": 1.9,
+          "rsi_14": 49.3,
+          "score": 80,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "MNCN.JK",
+          "ticker_display": "MNCN",
+          "price_close": 264,
+          "price_change_pct": 0.76,
+          "volume_ratio": 3.7,
+          "rsi_14": 72.4,
+          "score": 58,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
