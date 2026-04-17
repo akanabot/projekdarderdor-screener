@@ -1163,6 +1163,27 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-04-17",
+      "metadata": {
+        "generated_at": "2026-04-17T16:01:24+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "ACES.JK",
+          "ticker_display": "ACES",
+          "price_close": 376,
+          "price_change_pct": 2.73,
+          "volume_ratio": 1.8,
+          "rsi_14": 52.6,
+          "score": 80,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
