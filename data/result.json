@@ -1241,7 +1241,7 @@
     {
       "date": "2026-04-22",
       "metadata": {
-        "generated_at": "2026-04-22T16:09:28+07:00",
+        "generated_at": "2026-04-22T16:27:46+07:00",
         "status": "partial",
         "total_passed": 1
       },
@@ -1251,7 +1251,7 @@
           "ticker_display": "SMRA",
           "price_close": 328,
           "price_change_pct": 1.86,
-          "volume_ratio": 3.2,
+          "volume_ratio": 3.8,
           "rsi_14": 42.2,
           "score": 69,
           "signal": "MODERATE",
