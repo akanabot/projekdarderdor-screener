@@ -1237,6 +1237,27 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-04-22",
+      "metadata": {
+        "generated_at": "2026-04-22T16:04:47+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "SMRA.JK",
+          "ticker_display": "SMRA",
+          "price_close": 328,
+          "price_change_pct": 1.86,
+          "volume_ratio": 3.2,
+          "rsi_14": 42.2,
+          "score": 69,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
