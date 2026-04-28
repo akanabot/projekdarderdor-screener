@@ -1308,6 +1308,49 @@
         "total_passed": 0
       },
       "results": []
+    },
+    {
+      "date": "2026-04-28",
+      "metadata": {
+        "generated_at": "2026-04-28T16:40:57+07:00",
+        "status": "partial",
+        "total_passed": 3
+      },
+      "results": [
+        {
+          "ticker": "HMSP.JK",
+          "ticker_display": "HMSP",
+          "price_close": 740,
+          "price_change_pct": 2.07,
+          "volume_ratio": 3.4,
+          "rsi_14": 43.4,
+          "score": 74,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "ANTM.JK",
+          "ticker_display": "ANTM",
+          "price_close": 4040,
+          "price_change_pct": -1.94,
+          "volume_ratio": 1.8,
+          "rsi_14": 54.0,
+          "score": 58,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "ELSA.JK",
+          "ticker_display": "ELSA",
+          "price_close": 830,
+          "price_change_pct": 6.41,
+          "volume_ratio": 2.9,
+          "rsi_14": 66.1,
+          "score": 55,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
