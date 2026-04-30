@@ -1360,6 +1360,27 @@
         "total_passed": 0
       },
       "results": []
+    },
+    {
+      "date": "2026-04-30",
+      "metadata": {
+        "generated_at": "2026-04-30T16:34:09+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "PTPP.JK",
+          "ticker_display": "PTPP",
+          "price_close": 260,
+          "price_change_pct": 4.84,
+          "volume_ratio": 7.8,
+          "rsi_14": 40.2,
+          "score": 59,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
