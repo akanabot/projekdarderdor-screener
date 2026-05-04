@@ -1390,6 +1390,27 @@
         "total_passed": 0
       },
       "results": []
+    },
+    {
+      "date": "2026-05-04",
+      "metadata": {
+        "generated_at": "2026-05-04T16:36:56+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "TINS.JK",
+          "ticker_display": "TINS",
+          "price_close": 3800,
+          "price_change_pct": 6.15,
+          "volume_ratio": 3.5,
+          "rsi_14": 52.8,
+          "score": 70,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
