@@ -1420,6 +1420,49 @@
         "total_passed": 0
       },
       "results": []
+    },
+    {
+      "date": "2026-05-06",
+      "metadata": {
+        "generated_at": "2026-05-06T16:41:20+07:00",
+        "status": "partial",
+        "total_passed": 3
+      },
+      "results": [
+        {
+          "ticker": "UNVR.JK",
+          "ticker_display": "UNVR",
+          "price_close": 1805,
+          "price_change_pct": 10.06,
+          "volume_ratio": 2.8,
+          "rsi_14": 52.6,
+          "score": 80,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "TOBA.JK",
+          "ticker_display": "TOBA",
+          "price_close": 625,
+          "price_change_pct": 7.76,
+          "volume_ratio": 3.0,
+          "rsi_14": 54.9,
+          "score": 70,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "TINS.JK",
+          "ticker_display": "TINS",
+          "price_close": 3890,
+          "price_change_pct": 5.42,
+          "volume_ratio": 1.5,
+          "rsi_14": 56.9,
+          "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
