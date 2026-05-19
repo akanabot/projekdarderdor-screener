@@ -1739,6 +1739,27 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-05-19",
+      "metadata": {
+        "generated_at": "2026-05-19T17:48:09+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "AMRT.JK",
+          "ticker_display": "AMRT",
+          "price_close": 1445,
+          "price_change_pct": 2.12,
+          "volume_ratio": 2.2,
+          "rsi_14": 46.6,
+          "score": 92,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
