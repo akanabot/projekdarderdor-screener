@@ -1760,6 +1760,38 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-05-20",
+      "metadata": {
+        "generated_at": "2026-05-20T17:32:32+07:00",
+        "status": "partial",
+        "total_passed": 2
+      },
+      "results": [
+        {
+          "ticker": "BMRI.JK",
+          "ticker_display": "BMRI",
+          "price_close": 4230,
+          "price_change_pct": 2.42,
+          "volume_ratio": 1.4,
+          "rsi_14": 53.3,
+          "score": 78,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "TINS.JK",
+          "ticker_display": "TINS",
+          "price_close": 3060,
+          "price_change_pct": 3.03,
+          "volume_ratio": 2.5,
+          "rsi_14": 37.2,
+          "score": 51,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
