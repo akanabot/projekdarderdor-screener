@@ -1845,6 +1845,60 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-05-25",
+      "metadata": {
+        "generated_at": "2026-05-25T18:35:16+07:00",
+        "status": "partial",
+        "total_passed": 4
+      },
+      "results": [
+        {
+          "ticker": "BBNI.JK",
+          "ticker_display": "BBNI",
+          "price_close": 3890,
+          "price_change_pct": 2.91,
+          "volume_ratio": 1.5,
+          "rsi_14": 53.9,
+          "score": 80,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BBCA.JK",
+          "ticker_display": "BBCA",
+          "price_close": 6100,
+          "price_change_pct": 3.39,
+          "volume_ratio": 1.5,
+          "rsi_14": 47.4,
+          "score": 78,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BRIS.JK",
+          "ticker_display": "BRIS",
+          "price_close": 1935,
+          "price_change_pct": 9.01,
+          "volume_ratio": 2.3,
+          "rsi_14": 55.6,
+          "score": 55,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "AMMN.JK",
+          "ticker_display": "AMMN",
+          "price_close": 3150,
+          "price_change_pct": 8.62,
+          "volume_ratio": 3.4,
+          "rsi_14": 28.1,
+          "score": 50,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
