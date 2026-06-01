@@ -2027,6 +2027,104 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-06-01",
+      "metadata": {
+        "generated_at": "2026-06-01T20:10:20+07:00",
+        "status": "partial",
+        "total_passed": 8
+      },
+      "results": [
+        {
+          "ticker": "TLKM.JK",
+          "ticker_display": "TLKM",
+          "price_close": 3030,
+          "price_change_pct": -1.94,
+          "volume_ratio": 6.7,
+          "rsi_14": 51.5,
+          "score": 93,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "CPIN.JK",
+          "ticker_display": "CPIN",
+          "price_close": 4270,
+          "price_change_pct": -4.69,
+          "volume_ratio": 8.5,
+          "rsi_14": 51.9,
+          "score": 78,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "UNVR.JK",
+          "ticker_display": "UNVR",
+          "price_close": 1710,
+          "price_change_pct": -2.84,
+          "volume_ratio": 5.4,
+          "rsi_14": 38.8,
+          "score": 67,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BRPT.JK",
+          "ticker_display": "BRPT",
+          "price_close": 1940,
+          "price_change_pct": 24.76,
+          "volume_ratio": 2.7,
+          "rsi_14": 53.1,
+          "score": 65,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "AMMN.JK",
+          "ticker_display": "AMMN",
+          "price_close": 3300,
+          "price_change_pct": 6.11,
+          "volume_ratio": 8.3,
+          "rsi_14": 32.6,
+          "score": 60,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "INCO.JK",
+          "ticker_display": "INCO",
+          "price_close": 4730,
+          "price_change_pct": -3.27,
+          "volume_ratio": 2.2,
+          "rsi_14": 35.5,
+          "score": 56,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "PGAS.JK",
+          "ticker_display": "PGAS",
+          "price_close": 1825,
+          "price_change_pct": -3.69,
+          "volume_ratio": 3.5,
+          "rsi_14": 40.2,
+          "score": 52,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "JPFA.JK",
+          "ticker_display": "JPFA",
+          "price_close": 2450,
+          "price_change_pct": -4.67,
+          "volume_ratio": 3.2,
+          "rsi_14": 47.0,
+          "score": 50,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
