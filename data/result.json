@@ -2125,6 +2125,49 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-06-02",
+      "metadata": {
+        "generated_at": "2026-06-02T18:49:59+07:00",
+        "status": "partial",
+        "total_passed": 3
+      },
+      "results": [
+        {
+          "ticker": "AMRT.JK",
+          "ticker_display": "AMRT",
+          "price_close": 1380,
+          "price_change_pct": 20.0,
+          "volume_ratio": 2.0,
+          "rsi_14": 50.9,
+          "score": 77,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "AMMN.JK",
+          "ticker_display": "AMMN",
+          "price_close": 3890,
+          "price_change_pct": 17.88,
+          "volume_ratio": 2.6,
+          "rsi_14": 47.6,
+          "score": 75,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BRPT.JK",
+          "ticker_display": "BRPT",
+          "price_close": 1930,
+          "price_change_pct": -0.52,
+          "volume_ratio": 2.3,
+          "rsi_14": 52.7,
+          "score": 50,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
