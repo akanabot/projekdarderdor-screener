@@ -2204,6 +2204,71 @@
         "total_passed": 0
       },
       "results": []
+    },
+    {
+      "date": "2026-06-09",
+      "metadata": {
+        "generated_at": "2026-06-09T17:46:15+07:00",
+        "status": "partial",
+        "total_passed": 5
+      },
+      "results": [
+        {
+          "ticker": "BMRI.JK",
+          "ticker_display": "BMRI",
+          "price_close": 4090,
+          "price_change_pct": 10.24,
+          "volume_ratio": 2.1,
+          "rsi_14": 50.1,
+          "score": 82,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BBNI.JK",
+          "ticker_display": "BBNI",
+          "price_close": 3270,
+          "price_change_pct": 8.64,
+          "volume_ratio": 3.2,
+          "rsi_14": 35.2,
+          "score": 64,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "SCMA.JK",
+          "ticker_display": "SCMA",
+          "price_close": 208,
+          "price_change_pct": 16.2,
+          "volume_ratio": 2.5,
+          "rsi_14": 46.1,
+          "score": 62,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BBRI.JK",
+          "ticker_display": "BBRI",
+          "price_close": 2790,
+          "price_change_pct": 7.72,
+          "volume_ratio": 2.9,
+          "rsi_14": 39.5,
+          "score": 56,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "TLKM.JK",
+          "ticker_display": "TLKM",
+          "price_close": 2620,
+          "price_change_pct": 11.49,
+          "volume_ratio": 2.2,
+          "rsi_14": 37.6,
+          "score": 56,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
