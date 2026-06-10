@@ -2269,6 +2269,82 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-06-10",
+      "metadata": {
+        "generated_at": "2026-06-10T18:08:31+07:00",
+        "status": "partial",
+        "total_passed": 6
+      },
+      "results": [
+        {
+          "ticker": "ACES.JK",
+          "ticker_display": "ACES",
+          "price_close": 348,
+          "price_change_pct": 5.45,
+          "volume_ratio": 1.8,
+          "rsi_14": 47.7,
+          "score": 75,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BRPT.JK",
+          "ticker_display": "BRPT",
+          "price_close": 1760,
+          "price_change_pct": 6.02,
+          "volume_ratio": 1.6,
+          "rsi_14": 49.8,
+          "score": 70,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BBNI.JK",
+          "ticker_display": "BBNI",
+          "price_close": 3450,
+          "price_change_pct": 5.5,
+          "volume_ratio": 3.3,
+          "rsi_14": 43.4,
+          "score": 64,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BBCA.JK",
+          "ticker_display": "BBCA",
+          "price_close": 5650,
+          "price_change_pct": 9.71,
+          "volume_ratio": 2.2,
+          "rsi_14": 46.4,
+          "score": 62,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "TLKM.JK",
+          "ticker_display": "TLKM",
+          "price_close": 2810,
+          "price_change_pct": 7.25,
+          "volume_ratio": 2.1,
+          "rsi_14": 47.0,
+          "score": 62,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BMRI.JK",
+          "ticker_display": "BMRI",
+          "price_close": 4260,
+          "price_change_pct": 4.16,
+          "volume_ratio": 1.5,
+          "rsi_14": 55.8,
+          "score": 53,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
