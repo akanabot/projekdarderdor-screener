@@ -2345,6 +2345,60 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-06-11",
+      "metadata": {
+        "generated_at": "2026-06-11T18:55:24+07:00",
+        "status": "partial",
+        "total_passed": 4
+      },
+      "results": [
+        {
+          "ticker": "BBCA.JK",
+          "ticker_display": "BBCA",
+          "price_close": 5825,
+          "price_change_pct": 3.1,
+          "volume_ratio": 1.5,
+          "rsi_14": 51.3,
+          "score": 70,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "ISAT.JK",
+          "ticker_display": "ISAT",
+          "price_close": 1895,
+          "price_change_pct": 4.41,
+          "volume_ratio": 3.4,
+          "rsi_14": 43.3,
+          "score": 64,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "TLKM.JK",
+          "ticker_display": "TLKM",
+          "price_close": 2870,
+          "price_change_pct": 2.14,
+          "volume_ratio": 1.4,
+          "rsi_14": 49.2,
+          "score": 58,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "PWON.JK",
+          "ticker_display": "PWON",
+          "price_close": 256,
+          "price_change_pct": 3.23,
+          "volume_ratio": 3.1,
+          "rsi_14": 29.5,
+          "score": 50,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
