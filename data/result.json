@@ -2399,6 +2399,38 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-06-12",
+      "metadata": {
+        "generated_at": "2026-06-12T18:13:32+07:00",
+        "status": "partial",
+        "total_passed": 2
+      },
+      "results": [
+        {
+          "ticker": "INDY.JK",
+          "ticker_display": "INDY",
+          "price_close": 2260,
+          "price_change_pct": 18.32,
+          "volume_ratio": 2.4,
+          "rsi_14": 42.5,
+          "score": 66,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "MEDC.JK",
+          "ticker_display": "MEDC",
+          "price_close": 1225,
+          "price_change_pct": 0.82,
+          "volume_ratio": 1.4,
+          "rsi_14": 36.6,
+          "score": 52,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
