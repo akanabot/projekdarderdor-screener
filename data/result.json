@@ -2529,6 +2529,104 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-06-16",
+      "metadata": {
+        "generated_at": "2026-06-16T19:26:50+07:00",
+        "status": "partial",
+        "total_passed": 8
+      },
+      "results": [
+        {
+          "ticker": "BBRI.JK",
+          "ticker_display": "BBRI",
+          "price_close": 2990,
+          "price_change_pct": 4.91,
+          "volume_ratio": 1.6,
+          "rsi_14": 51.1,
+          "score": 80,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "INDY.JK",
+          "ticker_display": "INDY",
+          "price_close": 2370,
+          "price_change_pct": 4.87,
+          "volume_ratio": 1.6,
+          "rsi_14": 47.5,
+          "score": 80,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "ANTM.JK",
+          "ticker_display": "ANTM",
+          "price_close": 3130,
+          "price_change_pct": 9.82,
+          "volume_ratio": 1.5,
+          "rsi_14": 52.4,
+          "score": 68,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "ACES.JK",
+          "ticker_display": "ACES",
+          "price_close": 366,
+          "price_change_pct": 2.81,
+          "volume_ratio": 1.6,
+          "rsi_14": 57.7,
+          "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "KLBF.JK",
+          "ticker_display": "KLBF",
+          "price_close": 740,
+          "price_change_pct": 0.0,
+          "volume_ratio": 2.2,
+          "rsi_14": 43.2,
+          "score": 56,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BBNI.JK",
+          "ticker_display": "BBNI",
+          "price_close": 3800,
+          "price_change_pct": 6.74,
+          "volume_ratio": 1.4,
+          "rsi_14": 56.3,
+          "score": 51,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "ELSA.JK",
+          "ticker_display": "ELSA",
+          "price_close": 610,
+          "price_change_pct": -1.61,
+          "volume_ratio": 2.4,
+          "rsi_14": 42.4,
+          "score": 51,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "MEDC.JK",
+          "ticker_display": "MEDC",
+          "price_close": 1180,
+          "price_change_pct": -3.67,
+          "volume_ratio": 2.0,
+          "rsi_14": 35.2,
+          "score": 51,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
