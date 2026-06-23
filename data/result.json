@@ -2742,6 +2742,27 @@
         "total_passed": 0
       },
       "results": []
+    },
+    {
+      "date": "2026-06-23",
+      "metadata": {
+        "generated_at": "2026-06-23T17:47:12+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "KLBF.JK",
+          "ticker_display": "KLBF",
+          "price_close": 760,
+          "price_change_pct": 11.76,
+          "volume_ratio": 2.5,
+          "rsi_14": 51.3,
+          "score": 80,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
