@@ -2763,6 +2763,27 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-06-24",
+      "metadata": {
+        "generated_at": "2026-06-24T17:31:24+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "SCMA.JK",
+          "ticker_display": "SCMA",
+          "price_close": 216,
+          "price_change_pct": 9.09,
+          "volume_ratio": 5.4,
+          "rsi_14": 53.1,
+          "score": 88,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
