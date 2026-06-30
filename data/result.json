@@ -2814,6 +2814,27 @@
         "total_passed": 0
       },
       "results": []
+    },
+    {
+      "date": "2026-06-30",
+      "metadata": {
+        "generated_at": "2026-06-30T17:43:27+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "MTEL.JK",
+          "ticker_display": "MTEL",
+          "price_close": 540,
+          "price_change_pct": 8.43,
+          "volume_ratio": 2.3,
+          "rsi_14": 70.7,
+          "score": 55,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
