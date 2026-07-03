@@ -2853,6 +2853,27 @@
         "total_passed": 0
       },
       "results": []
+    },
+    {
+      "date": "2026-07-03",
+      "metadata": {
+        "generated_at": "2026-07-03T17:14:29+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "ISAT.JK",
+          "ticker_display": "ISAT",
+          "price_close": 1985,
+          "price_change_pct": 8.77,
+          "volume_ratio": 2.9,
+          "rsi_14": 60.4,
+          "score": 55,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
