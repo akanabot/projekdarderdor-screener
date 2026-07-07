@@ -2883,6 +2883,27 @@
         "total_passed": 0
       },
       "results": []
+    },
+    {
+      "date": "2026-07-07",
+      "metadata": {
+        "generated_at": "2026-07-07T17:38:22+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "ERAA.JK",
+          "ticker_display": "ERAA",
+          "price_close": 366,
+          "price_change_pct": 0.0,
+          "volume_ratio": 2.1,
+          "rsi_14": 51.5,
+          "score": 77,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
