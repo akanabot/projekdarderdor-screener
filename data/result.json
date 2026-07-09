@@ -2925,6 +2925,38 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-07-09",
+      "metadata": {
+        "generated_at": "2026-07-09T17:37:41+07:00",
+        "status": "partial",
+        "total_passed": 2
+      },
+      "results": [
+        {
+          "ticker": "MTEL.JK",
+          "ticker_display": "MTEL",
+          "price_close": 480,
+          "price_change_pct": -2.04,
+          "volume_ratio": 1.5,
+          "rsi_14": 51.1,
+          "score": 78,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "MEDC.JK",
+          "ticker_display": "MEDC",
+          "price_close": 1165,
+          "price_change_pct": -0.43,
+          "volume_ratio": 1.7,
+          "rsi_14": 50.3,
+          "score": 65,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
