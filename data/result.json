@@ -2957,6 +2957,27 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-07-10",
+      "metadata": {
+        "generated_at": "2026-07-10T17:33:37+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "ELSA.JK",
+          "ticker_display": "ELSA",
+          "price_close": 655,
+          "price_change_pct": 8.26,
+          "volume_ratio": 2.2,
+          "rsi_14": 68.6,
+          "score": 55,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
