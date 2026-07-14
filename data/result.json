@@ -3003,7 +3003,7 @@
     {
       "date": "2026-07-14",
       "metadata": {
-        "generated_at": "2026-07-14T16:24:02+07:00",
+        "generated_at": "2026-07-14T16:31:47+07:00",
         "status": "partial",
         "total_passed": 2
       },
@@ -3013,7 +3013,7 @@
           "ticker_display": "TINS",
           "price_close": 3480,
           "price_change_pct": 1.16,
-          "volume_ratio": 2.0,
+          "volume_ratio": 2.1,
           "rsi_14": 52.8,
           "score": 82,
           "signal": "STRONG",
