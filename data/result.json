@@ -3031,6 +3031,27 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-07-15",
+      "metadata": {
+        "generated_at": "2026-07-15T16:28:36+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "ANTM.JK",
+          "ticker_display": "ANTM",
+          "price_close": 3040,
+          "price_change_pct": 4.11,
+          "volume_ratio": 1.5,
+          "rsi_14": 59.7,
+          "score": 58,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
