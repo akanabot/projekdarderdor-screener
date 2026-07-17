@@ -3061,6 +3061,71 @@
         "total_passed": 0
       },
       "results": []
+    },
+    {
+      "date": "2026-07-17",
+      "metadata": {
+        "generated_at": "2026-07-17T16:27:58+07:00",
+        "status": "partial",
+        "total_passed": 5
+      },
+      "results": [
+        {
+          "ticker": "KLBF.JK",
+          "ticker_display": "KLBF",
+          "price_close": 760,
+          "price_change_pct": 5.56,
+          "volume_ratio": 1.4,
+          "rsi_14": 53.5,
+          "score": 73,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BBNI.JK",
+          "ticker_display": "BBNI",
+          "price_close": 3580,
+          "price_change_pct": 2.29,
+          "volume_ratio": 1.9,
+          "rsi_14": 56.2,
+          "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BBRI.JK",
+          "ticker_display": "BBRI",
+          "price_close": 2970,
+          "price_change_pct": 3.85,
+          "volume_ratio": 1.7,
+          "rsi_14": 57.6,
+          "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BBYB.JK",
+          "ticker_display": "BBYB",
+          "price_close": 262,
+          "price_change_pct": 11.97,
+          "volume_ratio": 7.7,
+          "rsi_14": 63.9,
+          "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BRIS.JK",
+          "ticker_display": "BRIS",
+          "price_close": 1910,
+          "price_change_pct": 9.77,
+          "volume_ratio": 5.1,
+          "rsi_14": 60.9,
+          "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
