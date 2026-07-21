@@ -3135,6 +3135,27 @@
         "total_passed": 0
       },
       "results": []
+    },
+    {
+      "date": "2026-07-21",
+      "metadata": {
+        "generated_at": "2026-07-21T17:00:41+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "MNCN.JK",
+          "ticker_display": "MNCN",
+          "price_close": 222,
+          "price_change_pct": 4.72,
+          "volume_ratio": 2.4,
+          "rsi_14": 65.9,
+          "score": 55,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
