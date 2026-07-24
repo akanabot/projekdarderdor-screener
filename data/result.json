@@ -3264,6 +3264,49 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-07-24",
+      "metadata": {
+        "generated_at": "2026-07-24T16:44:05+07:00",
+        "status": "partial",
+        "total_passed": 3
+      },
+      "results": [
+        {
+          "ticker": "ASII.JK",
+          "ticker_display": "ASII",
+          "price_close": 4980,
+          "price_change_pct": -0.4,
+          "volume_ratio": 1.4,
+          "rsi_14": 50.4,
+          "score": 61,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BMRI.JK",
+          "ticker_display": "BMRI",
+          "price_close": 4130,
+          "price_change_pct": -5.71,
+          "volume_ratio": 2.5,
+          "rsi_14": 46.3,
+          "score": 50,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "TINS.JK",
+          "ticker_display": "TINS",
+          "price_close": 3430,
+          "price_change_pct": -7.05,
+          "volume_ratio": 2.3,
+          "rsi_14": 48.1,
+          "score": 50,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
