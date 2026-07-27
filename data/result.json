@@ -3307,6 +3307,27 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-07-27",
+      "metadata": {
+        "generated_at": "2026-07-27T17:55:03+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "PWON.JK",
+          "ticker_display": "PWON",
+          "price_close": 262,
+          "price_change_pct": -2.96,
+          "volume_ratio": 1.5,
+          "rsi_14": 50.3,
+          "score": 56,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
