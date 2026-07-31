@@ -3355,6 +3355,49 @@
         "total_passed": 0
       },
       "results": []
+    },
+    {
+      "date": "2026-07-31",
+      "metadata": {
+        "generated_at": "2026-07-31T17:05:23+07:00",
+        "status": "partial",
+        "total_passed": 3
+      },
+      "results": [
+        {
+          "ticker": "SCMA.JK",
+          "ticker_display": "SCMA",
+          "price_close": 208,
+          "price_change_pct": 5.05,
+          "volume_ratio": 1.4,
+          "rsi_14": 54.3,
+          "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "TINS.JK",
+          "ticker_display": "TINS",
+          "price_close": 3800,
+          "price_change_pct": 6.74,
+          "volume_ratio": 3.3,
+          "rsi_14": 63.9,
+          "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "KLBF.JK",
+          "ticker_display": "KLBF",
+          "price_close": 725,
+          "price_change_pct": 4.32,
+          "volume_ratio": 1.9,
+          "rsi_14": 48.3,
+          "score": 55,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
