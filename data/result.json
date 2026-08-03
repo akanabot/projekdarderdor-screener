@@ -3398,6 +3398,27 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-08-03",
+      "metadata": {
+        "generated_at": "2026-08-03T17:55:33+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "INDY.JK",
+          "ticker_display": "INDY",
+          "price_close": 2340,
+          "price_change_pct": -11.03,
+          "volume_ratio": 2.5,
+          "rsi_14": 49.1,
+          "score": 50,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
