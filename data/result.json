@@ -3440,6 +3440,71 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-08-05",
+      "metadata": {
+        "generated_at": "2026-08-05T17:06:04+07:00",
+        "status": "partial",
+        "total_passed": 5
+      },
+      "results": [
+        {
+          "ticker": "AMRT.JK",
+          "ticker_display": "AMRT",
+          "price_close": 1425,
+          "price_change_pct": 7.55,
+          "volume_ratio": 1.8,
+          "rsi_14": 59.4,
+          "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "TOBA.JK",
+          "ticker_display": "TOBA",
+          "price_close": 535,
+          "price_change_pct": 9.63,
+          "volume_ratio": 4.2,
+          "rsi_14": 71.2,
+          "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "ISAT.JK",
+          "ticker_display": "ISAT",
+          "price_close": 1900,
+          "price_change_pct": -4.52,
+          "volume_ratio": 3.5,
+          "rsi_14": 49.6,
+          "score": 58,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "KLBF.JK",
+          "ticker_display": "KLBF",
+          "price_close": 800,
+          "price_change_pct": 8.84,
+          "volume_ratio": 3.0,
+          "rsi_14": 66.5,
+          "score": 55,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "ANTM.JK",
+          "ticker_display": "ANTM",
+          "price_close": 3070,
+          "price_change_pct": 6.23,
+          "volume_ratio": 1.9,
+          "rsi_14": 59.7,
+          "score": 53,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
