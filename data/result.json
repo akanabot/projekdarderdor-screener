@@ -3541,7 +3541,7 @@
     {
       "date": "2026-08-07",
       "metadata": {
-        "generated_at": "2026-08-07T16:15:55+07:00",
+        "generated_at": "2026-08-07T16:33:22+07:00",
         "status": "partial",
         "total_passed": 3
       },
@@ -3551,7 +3551,7 @@
           "ticker_display": "ISAT",
           "price_close": 2170,
           "price_change_pct": 14.21,
-          "volume_ratio": 4.7,
+          "volume_ratio": 4.8,
           "rsi_14": 68.7,
           "score": 63,
           "signal": "MODERATE",
