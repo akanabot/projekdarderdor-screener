@@ -3614,19 +3614,30 @@
     {
       "date": "2026-08-12",
       "metadata": {
-        "generated_at": "2026-08-12T15:52:33+07:00",
+        "generated_at": "2026-08-12T16:17:29+07:00",
         "status": "partial",
-        "total_passed": 1
+        "total_passed": 2
       },
       "results": [
         {
           "ticker": "ISAT.JK",
           "ticker_display": "ISAT",
-          "price_close": 2440,
-          "price_change_pct": 13.49,
-          "volume_ratio": 4.6,
-          "rsi_14": 75.0,
+          "price_close": 2460,
+          "price_change_pct": 14.42,
+          "volume_ratio": 4.8,
+          "rsi_14": 75.5,
           "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BRPT.JK",
+          "ticker_display": "BRPT",
+          "price_close": 1950,
+          "price_change_pct": 7.14,
+          "volume_ratio": 1.4,
+          "rsi_14": 60.0,
+          "score": 51,
           "signal": "MODERATE",
           "outcome": "PENDING"
         }
