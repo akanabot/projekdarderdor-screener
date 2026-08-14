@@ -3655,7 +3655,7 @@
     {
       "date": "2026-08-14",
       "metadata": {
-        "generated_at": "2026-08-14T15:49:53+07:00",
+        "generated_at": "2026-08-14T16:13:14+07:00",
         "status": "partial",
         "total_passed": 2
       },
@@ -3663,22 +3663,22 @@
         {
           "ticker": "TINS.JK",
           "ticker_display": "TINS",
-          "price_close": 3870,
-          "price_change_pct": 4.03,
-          "volume_ratio": 2.2,
-          "rsi_14": 59.5,
-          "score": 70,
-          "signal": "STRONG",
+          "price_close": 3890,
+          "price_change_pct": 4.57,
+          "volume_ratio": 2.3,
+          "rsi_14": 60.2,
+          "score": 60,
+          "signal": "MODERATE",
           "outcome": "PENDING"
         },
         {
           "ticker": "ISAT.JK",
           "ticker_display": "ISAT",
-          "price_close": 2530,
-          "price_change_pct": 2.43,
-          "volume_ratio": 2.1,
-          "rsi_14": 77.3,
-          "score": 50,
+          "price_close": 2540,
+          "price_change_pct": 2.83,
+          "volume_ratio": 2.3,
+          "rsi_14": 77.5,
+          "score": 55,
           "signal": "MODERATE",
           "outcome": "PENDING"
         }
