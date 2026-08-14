@@ -3655,7 +3655,7 @@
     {
       "date": "2026-08-14",
       "metadata": {
-        "generated_at": "2026-08-14T15:43:56+07:00",
+        "generated_at": "2026-08-14T15:49:53+07:00",
         "status": "partial",
         "total_passed": 2
       },
@@ -3663,10 +3663,10 @@
         {
           "ticker": "TINS.JK",
           "ticker_display": "TINS",
-          "price_close": 3880,
-          "price_change_pct": 4.3,
+          "price_close": 3870,
+          "price_change_pct": 4.03,
           "volume_ratio": 2.2,
-          "rsi_14": 59.8,
+          "rsi_14": 59.5,
           "score": 70,
           "signal": "STRONG",
           "outcome": "PENDING"
