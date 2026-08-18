@@ -3715,6 +3715,38 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-08-18",
+      "metadata": {
+        "generated_at": "2026-08-18T15:02:44+07:00",
+        "status": "partial",
+        "total_passed": 2
+      },
+      "results": [
+        {
+          "ticker": "ACES.JK",
+          "ticker_display": "ACES",
+          "price_close": 356,
+          "price_change_pct": 0.56,
+          "volume_ratio": 2.9,
+          "rsi_14": 53.1,
+          "score": 77,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "PWON.JK",
+          "ticker_display": "PWON",
+          "price_close": 260,
+          "price_change_pct": 2.36,
+          "volume_ratio": 1.8,
+          "rsi_14": 49.8,
+          "score": 75,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
