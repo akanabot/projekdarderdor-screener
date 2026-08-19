@@ -3773,7 +3773,7 @@
     {
       "date": "2026-08-19",
       "metadata": {
-        "generated_at": "2026-08-19T16:05:45+07:00",
+        "generated_at": "2026-08-19T16:19:48+07:00",
         "status": "partial",
         "total_passed": 4
       },
@@ -3783,7 +3783,7 @@
           "ticker_display": "SCMA",
           "price_close": 208,
           "price_change_pct": 1.96,
-          "volume_ratio": 1.9,
+          "volume_ratio": 2.0,
           "rsi_14": 54.6,
           "score": 80,
           "signal": "STRONG",
@@ -3794,7 +3794,7 @@
           "ticker_display": "PWON",
           "price_close": 266,
           "price_change_pct": 3.1,
-          "volume_ratio": 5.2,
+          "volume_ratio": 5.3,
           "rsi_14": 55.7,
           "score": 65,
           "signal": "MODERATE",
@@ -3805,7 +3805,7 @@
           "ticker_display": "BSDE",
           "price_close": 650,
           "price_change_pct": 6.56,
-          "volume_ratio": 6.8,
+          "volume_ratio": 6.9,
           "rsi_14": 68.1,
           "score": 58,
           "signal": "MODERATE",
@@ -3814,10 +3814,10 @@
         {
           "ticker": "ISAT.JK",
           "ticker_display": "ISAT",
-          "price_close": 2760,
-          "price_change_pct": 6.15,
-          "volume_ratio": 2.5,
-          "rsi_14": 81.6,
+          "price_close": 2740,
+          "price_change_pct": 5.38,
+          "volume_ratio": 2.6,
+          "rsi_14": 81.2,
           "score": 55,
           "signal": "MODERATE",
           "outcome": "PENDING"
