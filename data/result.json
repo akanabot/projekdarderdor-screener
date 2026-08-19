@@ -3773,31 +3773,31 @@
     {
       "date": "2026-08-19",
       "metadata": {
-        "generated_at": "2026-08-19T15:54:18+07:00",
+        "generated_at": "2026-08-19T16:05:45+07:00",
         "status": "partial",
         "total_passed": 4
       },
       "results": [
         {
-          "ticker": "PWON.JK",
-          "ticker_display": "PWON",
-          "price_close": 264,
-          "price_change_pct": 2.33,
-          "volume_ratio": 5.2,
-          "rsi_14": 54.0,
-          "score": 85,
+          "ticker": "SCMA.JK",
+          "ticker_display": "SCMA",
+          "price_close": 208,
+          "price_change_pct": 1.96,
+          "volume_ratio": 1.9,
+          "rsi_14": 54.6,
+          "score": 80,
           "signal": "STRONG",
           "outcome": "PENDING"
         },
         {
-          "ticker": "SCMA.JK",
-          "ticker_display": "SCMA",
-          "price_close": 206,
-          "price_change_pct": 0.98,
-          "volume_ratio": 1.9,
-          "rsi_14": 52.4,
-          "score": 75,
-          "signal": "STRONG",
+          "ticker": "PWON.JK",
+          "ticker_display": "PWON",
+          "price_close": 266,
+          "price_change_pct": 3.1,
+          "volume_ratio": 5.2,
+          "rsi_14": 55.7,
+          "score": 65,
+          "signal": "MODERATE",
           "outcome": "PENDING"
         },
         {
@@ -3805,7 +3805,7 @@
           "ticker_display": "BSDE",
           "price_close": 650,
           "price_change_pct": 6.56,
-          "volume_ratio": 6.7,
+          "volume_ratio": 6.8,
           "rsi_14": 68.1,
           "score": 58,
           "signal": "MODERATE",
