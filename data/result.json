@@ -3769,6 +3769,60 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-08-19",
+      "metadata": {
+        "generated_at": "2026-08-19T15:02:43+07:00",
+        "status": "partial",
+        "total_passed": 4
+      },
+      "results": [
+        {
+          "ticker": "SCMA.JK",
+          "ticker_display": "SCMA",
+          "price_close": 208,
+          "price_change_pct": 1.96,
+          "volume_ratio": 1.8,
+          "rsi_14": 54.6,
+          "score": 80,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "PWON.JK",
+          "ticker_display": "PWON",
+          "price_close": 268,
+          "price_change_pct": 3.88,
+          "volume_ratio": 4.9,
+          "rsi_14": 57.2,
+          "score": 75,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BSDE.JK",
+          "ticker_display": "BSDE",
+          "price_close": 655,
+          "price_change_pct": 7.38,
+          "volume_ratio": 6.4,
+          "rsi_14": 68.9,
+          "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "ISAT.JK",
+          "ticker_display": "ISAT",
+          "price_close": 2760,
+          "price_change_pct": 6.15,
+          "volume_ratio": 2.2,
+          "rsi_14": 81.6,
+          "score": 55,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
