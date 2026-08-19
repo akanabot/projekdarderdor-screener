@@ -3773,7 +3773,7 @@
     {
       "date": "2026-08-19",
       "metadata": {
-        "generated_at": "2026-08-19T15:02:43+07:00",
+        "generated_at": "2026-08-19T15:17:37+07:00",
         "status": "partial",
         "total_passed": 4
       },
@@ -3792,12 +3792,12 @@
         {
           "ticker": "PWON.JK",
           "ticker_display": "PWON",
-          "price_close": 268,
-          "price_change_pct": 3.88,
+          "price_close": 266,
+          "price_change_pct": 3.1,
           "volume_ratio": 4.9,
-          "rsi_14": 57.2,
-          "score": 75,
-          "signal": "STRONG",
+          "rsi_14": 55.7,
+          "score": 65,
+          "signal": "MODERATE",
           "outcome": "PENDING"
         },
         {
@@ -3814,10 +3814,10 @@
         {
           "ticker": "ISAT.JK",
           "ticker_display": "ISAT",
-          "price_close": 2760,
-          "price_change_pct": 6.15,
+          "price_close": 2740,
+          "price_change_pct": 5.38,
           "volume_ratio": 2.2,
-          "rsi_14": 81.6,
+          "rsi_14": 81.2,
           "score": 55,
           "signal": "MODERATE",
           "outcome": "PENDING"
