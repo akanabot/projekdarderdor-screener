@@ -3827,22 +3827,11 @@
     {
       "date": "2026-08-20",
       "metadata": {
-        "generated_at": "2026-08-20T15:56:20+07:00",
+        "generated_at": "2026-08-20T16:06:53+07:00",
         "status": "partial",
         "total_passed": 2
       },
       "results": [
-        {
-          "ticker": "PWON.JK",
-          "ticker_display": "PWON",
-          "price_close": 266,
-          "price_change_pct": 0.0,
-          "volume_ratio": 1.4,
-          "rsi_14": 54.3,
-          "score": 58,
-          "signal": "MODERATE",
-          "outcome": "PENDING"
-        },
         {
           "ticker": "SCMA.JK",
           "ticker_display": "SCMA",
@@ -3851,6 +3840,17 @@
           "volume_ratio": 2.5,
           "rsi_14": 64.3,
           "score": 55,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "PWON.JK",
+          "ticker_display": "PWON",
+          "price_close": 268,
+          "price_change_pct": 0.75,
+          "volume_ratio": 1.5,
+          "rsi_14": 56.0,
+          "score": 53,
           "signal": "MODERATE",
           "outcome": "PENDING"
         }
