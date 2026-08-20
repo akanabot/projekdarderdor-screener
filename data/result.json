@@ -3823,6 +3823,27 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-08-20",
+      "metadata": {
+        "generated_at": "2026-08-20T15:05:11+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "SCMA.JK",
+          "ticker_display": "SCMA",
+          "price_close": 222,
+          "price_change_pct": 6.73,
+          "volume_ratio": 2.3,
+          "rsi_14": 67.0,
+          "score": 55,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
