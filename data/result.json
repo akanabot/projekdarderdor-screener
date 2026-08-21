@@ -3870,7 +3870,7 @@
     {
       "date": "2026-08-21",
       "metadata": {
-        "generated_at": "2026-08-21T15:05:37+07:00",
+        "generated_at": "2026-08-21T15:21:21+07:00",
         "status": "partial",
         "total_passed": 2
       },
@@ -3878,10 +3878,10 @@
         {
           "ticker": "TOBA.JK",
           "ticker_display": "TOBA",
-          "price_close": 580,
-          "price_change_pct": 9.43,
-          "volume_ratio": 4.6,
-          "rsi_14": 70.6,
+          "price_close": 570,
+          "price_change_pct": 7.55,
+          "volume_ratio": 4.7,
+          "rsi_14": 69.4,
           "score": 63,
           "signal": "MODERATE",
           "outcome": "PENDING"
@@ -3891,7 +3891,7 @@
           "ticker_display": "BBNI",
           "price_close": 3740,
           "price_change_pct": 4.18,
-          "volume_ratio": 2.0,
+          "volume_ratio": 2.1,
           "rsi_14": 62.6,
           "score": 60,
           "signal": "MODERATE",
