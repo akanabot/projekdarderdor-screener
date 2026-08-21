@@ -3870,9 +3870,9 @@
     {
       "date": "2026-08-21",
       "metadata": {
-        "generated_at": "2026-08-21T16:09:11+07:00",
+        "generated_at": "2026-08-21T16:22:00+07:00",
         "status": "partial",
-        "total_passed": 2
+        "total_passed": 3
       },
       "results": [
         {
@@ -3880,7 +3880,7 @@
           "ticker_display": "TOBA",
           "price_close": 570,
           "price_change_pct": 7.55,
-          "volume_ratio": 4.9,
+          "volume_ratio": 5.0,
           "rsi_14": 69.4,
           "score": 63,
           "signal": "MODERATE",
@@ -3889,11 +3889,22 @@
         {
           "ticker": "BBNI.JK",
           "ticker_display": "BBNI",
-          "price_close": 3760,
-          "price_change_pct": 4.74,
-          "volume_ratio": 2.4,
-          "rsi_14": 63.6,
+          "price_close": 3730,
+          "price_change_pct": 3.9,
+          "volume_ratio": 2.5,
+          "rsi_14": 62.0,
           "score": 60,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "MNCN.JK",
+          "ticker_display": "MNCN",
+          "price_close": 206,
+          "price_change_pct": 0.98,
+          "volume_ratio": 1.5,
+          "rsi_14": 55.5,
+          "score": 55,
           "signal": "MODERATE",
           "outcome": "PENDING"
         }
