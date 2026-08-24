@@ -3913,7 +3913,7 @@
     {
       "date": "2026-08-24",
       "metadata": {
-        "generated_at": "2026-08-24T15:28:20+07:00",
+        "generated_at": "2026-08-24T15:54:40+07:00",
         "status": "partial",
         "total_passed": 1
       },
@@ -3921,10 +3921,10 @@
         {
           "ticker": "MTEL.JK",
           "ticker_display": "MTEL",
-          "price_close": 452,
-          "price_change_pct": 2.73,
-          "volume_ratio": 1.5,
-          "rsi_14": 53.3,
+          "price_close": 450,
+          "price_change_pct": 2.27,
+          "volume_ratio": 1.6,
+          "rsi_14": 51.9,
           "score": 65,
           "signal": "MODERATE",
           "outcome": "PENDING"
