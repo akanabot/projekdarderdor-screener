@@ -3913,9 +3913,9 @@
     {
       "date": "2026-08-24",
       "metadata": {
-        "generated_at": "2026-08-24T16:04:27+07:00",
+        "generated_at": "2026-08-24T16:14:54+07:00",
         "status": "partial",
-        "total_passed": 1
+        "total_passed": 2
       },
       "results": [
         {
@@ -3923,9 +3923,20 @@
           "ticker_display": "MTEL",
           "price_close": 450,
           "price_change_pct": 2.27,
-          "volume_ratio": 1.6,
+          "volume_ratio": 1.7,
           "rsi_14": 51.9,
           "score": 65,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "ADRO.JK",
+          "ticker_display": "ADRO",
+          "price_close": 2630,
+          "price_change_pct": 3.14,
+          "volume_ratio": 2.0,
+          "rsi_14": 64.7,
+          "score": 53,
           "signal": "MODERATE",
           "outcome": "PENDING"
         }
