@@ -3977,30 +3977,30 @@
     {
       "date": "2026-08-26",
       "metadata": {
-        "generated_at": "2026-08-26T15:51:43+07:00",
+        "generated_at": "2026-08-26T16:02:25+07:00",
         "status": "partial",
         "total_passed": 2
       },
       "results": [
         {
+          "ticker": "SCMA.JK",
+          "ticker_display": "SCMA",
+          "price_close": 208,
+          "price_change_pct": -0.95,
+          "volume_ratio": 2.2,
+          "rsi_14": 52.3,
+          "score": 70,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
           "ticker": "MTEL.JK",
           "ticker_display": "MTEL",
           "price_close": 464,
           "price_change_pct": 3.11,
-          "volume_ratio": 3.6,
+          "volume_ratio": 3.7,
           "rsi_14": 62.0,
           "score": 68,
-          "signal": "MODERATE",
-          "outcome": "PENDING"
-        },
-        {
-          "ticker": "SCMA.JK",
-          "ticker_display": "SCMA",
-          "price_close": 206,
-          "price_change_pct": -1.9,
-          "volume_ratio": 2.2,
-          "rsi_14": 50.3,
-          "score": 50,
           "signal": "MODERATE",
           "outcome": "PENDING"
         }
