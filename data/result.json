@@ -3977,7 +3977,7 @@
     {
       "date": "2026-08-26",
       "metadata": {
-        "generated_at": "2026-08-26T15:25:59+07:00",
+        "generated_at": "2026-08-26T15:51:43+07:00",
         "status": "partial",
         "total_passed": 2
       },
@@ -3987,7 +3987,7 @@
           "ticker_display": "MTEL",
           "price_close": 464,
           "price_change_pct": 3.11,
-          "volume_ratio": 3.5,
+          "volume_ratio": 3.6,
           "rsi_14": 62.0,
           "score": 68,
           "signal": "MODERATE",
@@ -3998,7 +3998,7 @@
           "ticker_display": "SCMA",
           "price_close": 206,
           "price_change_pct": -1.9,
-          "volume_ratio": 2.1,
+          "volume_ratio": 2.2,
           "rsi_14": 50.3,
           "score": 50,
           "signal": "MODERATE",
