@@ -4252,6 +4252,60 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-09-02",
+      "metadata": {
+        "generated_at": "2026-09-02T19:13:30+07:00",
+        "status": "partial",
+        "total_passed": 4
+      },
+      "results": [
+        {
+          "ticker": "ADRO.JK",
+          "ticker_display": "ADRO",
+          "price_close": 2650,
+          "price_change_pct": -4.68,
+          "volume_ratio": 3.2,
+          "rsi_14": 54.2,
+          "score": 73,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "ARTO.JK",
+          "ticker_display": "ARTO",
+          "price_close": 1030,
+          "price_change_pct": 4.04,
+          "volume_ratio": 3.5,
+          "rsi_14": 40.2,
+          "score": 64,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BBYB.JK",
+          "ticker_display": "BBYB",
+          "price_close": 278,
+          "price_change_pct": 4.51,
+          "volume_ratio": 5.6,
+          "rsi_14": 63.4,
+          "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "PTBA.JK",
+          "ticker_display": "PTBA",
+          "price_close": 2720,
+          "price_change_pct": 1.87,
+          "volume_ratio": 3.9,
+          "rsi_14": 76.2,
+          "score": 58,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
