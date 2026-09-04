@@ -4382,6 +4382,27 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-09-04",
+      "metadata": {
+        "generated_at": "2026-09-04T19:14:35+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "TINS.JK",
+          "ticker_display": "TINS",
+          "price_close": 4420,
+          "price_change_pct": 8.07,
+          "volume_ratio": 2.0,
+          "rsi_14": 71.3,
+          "score": 55,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
