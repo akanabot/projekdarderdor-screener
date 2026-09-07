@@ -4403,6 +4403,60 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-09-07",
+      "metadata": {
+        "generated_at": "2026-09-07T20:37:52+07:00",
+        "status": "partial",
+        "total_passed": 4
+      },
+      "results": [
+        {
+          "ticker": "KLBF.JK",
+          "ticker_display": "KLBF",
+          "price_close": 785,
+          "price_change_pct": 1.29,
+          "volume_ratio": 2.6,
+          "rsi_14": 53.8,
+          "score": 67,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "MNCN.JK",
+          "ticker_display": "MNCN",
+          "price_close": 210,
+          "price_change_pct": 5.0,
+          "volume_ratio": 2.2,
+          "rsi_14": 62.1,
+          "score": 60,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "AKRA.JK",
+          "ticker_display": "AKRA",
+          "price_close": 1450,
+          "price_change_pct": 4.69,
+          "volume_ratio": 3.9,
+          "rsi_14": 60.8,
+          "score": 58,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "PTBA.JK",
+          "ticker_display": "PTBA",
+          "price_close": 3010,
+          "price_change_pct": 4.51,
+          "volume_ratio": 2.8,
+          "rsi_14": 87.3,
+          "score": 55,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
