@@ -4565,6 +4565,49 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-09-10",
+      "metadata": {
+        "generated_at": "2026-09-10T19:20:13+07:00",
+        "status": "partial",
+        "total_passed": 3
+      },
+      "results": [
+        {
+          "ticker": "MNCN.JK",
+          "ticker_display": "MNCN",
+          "price_close": 204,
+          "price_change_pct": 0.99,
+          "volume_ratio": 2.8,
+          "rsi_14": 50.3,
+          "score": 87,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "ISAT.JK",
+          "ticker_display": "ISAT",
+          "price_close": 2400,
+          "price_change_pct": 0.0,
+          "volume_ratio": 2.1,
+          "rsi_14": 53.5,
+          "score": 67,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "ANTM.JK",
+          "ticker_display": "ANTM",
+          "price_close": 3270,
+          "price_change_pct": 2.19,
+          "volume_ratio": 2.4,
+          "rsi_14": 62.9,
+          "score": 55,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
