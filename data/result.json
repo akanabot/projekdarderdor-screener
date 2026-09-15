@@ -4682,6 +4682,49 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-09-15",
+      "metadata": {
+        "generated_at": "2026-09-15T19:48:00+07:00",
+        "status": "partial",
+        "total_passed": 3
+      },
+      "results": [
+        {
+          "ticker": "ULTJ.JK",
+          "ticker_display": "ULTJ",
+          "price_close": 1800,
+          "price_change_pct": 4.96,
+          "volume_ratio": 7.6,
+          "rsi_14": 83.4,
+          "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "KLBF.JK",
+          "ticker_display": "KLBF",
+          "price_close": 770,
+          "price_change_pct": 4.76,
+          "volume_ratio": 1.6,
+          "rsi_14": 49.2,
+          "score": 55,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "MNCN.JK",
+          "ticker_display": "MNCN",
+          "price_close": 202,
+          "price_change_pct": 1.0,
+          "volume_ratio": 2.3,
+          "rsi_14": 47.7,
+          "score": 55,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
