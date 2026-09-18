@@ -4743,6 +4743,60 @@
         "total_passed": 0
       },
       "results": []
+    },
+    {
+      "date": "2026-09-18",
+      "metadata": {
+        "generated_at": "2026-09-18T19:20:03+07:00",
+        "status": "partial",
+        "total_passed": 4
+      },
+      "results": [
+        {
+          "ticker": "AMMN.JK",
+          "ticker_display": "AMMN",
+          "price_close": 4680,
+          "price_change_pct": -4.49,
+          "volume_ratio": 3.2,
+          "rsi_14": 52.2,
+          "score": 78,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "ULTJ.JK",
+          "ticker_display": "ULTJ",
+          "price_close": 2060,
+          "price_change_pct": 8.42,
+          "volume_ratio": 8.3,
+          "rsi_14": 90.3,
+          "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "ADRO.JK",
+          "ticker_display": "ADRO",
+          "price_close": 2640,
+          "price_change_pct": -1.12,
+          "volume_ratio": 1.4,
+          "rsi_14": 51.1,
+          "score": 53,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "AMRT.JK",
+          "ticker_display": "AMRT",
+          "price_close": 1300,
+          "price_change_pct": -1.89,
+          "volume_ratio": 2.9,
+          "rsi_14": 43.9,
+          "score": 51,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
