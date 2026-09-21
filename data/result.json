@@ -4797,6 +4797,27 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-09-21",
+      "metadata": {
+        "generated_at": "2026-09-21T21:26:21+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "SIDO.JK",
+          "ticker_display": "SIDO",
+          "price_close": 356,
+          "price_change_pct": 0.56,
+          "volume_ratio": 2.2,
+          "rsi_14": 52.8,
+          "score": 87,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
