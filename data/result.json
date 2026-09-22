@@ -4818,6 +4818,38 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-09-22",
+      "metadata": {
+        "generated_at": "2026-09-22T19:46:09+07:00",
+        "status": "partial",
+        "total_passed": 2
+      },
+      "results": [
+        {
+          "ticker": "ISAT.JK",
+          "ticker_display": "ISAT",
+          "price_close": 2410,
+          "price_change_pct": 4.33,
+          "volume_ratio": 1.6,
+          "rsi_14": 53.8,
+          "score": 70,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "AMRT.JK",
+          "ticker_display": "AMRT",
+          "price_close": 1305,
+          "price_change_pct": -0.76,
+          "volume_ratio": 1.6,
+          "rsi_14": 46.5,
+          "score": 50,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
