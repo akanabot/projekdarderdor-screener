@@ -4922,6 +4922,27 @@
         "total_passed": 0
       },
       "results": []
+    },
+    {
+      "date": "2026-10-05",
+      "metadata": {
+        "generated_at": "2026-10-05T23:17:33+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "ASII.JK",
+          "ticker_display": "ASII",
+          "price_close": 4750,
+          "price_change_pct": 2.59,
+          "volume_ratio": 1.4,
+          "rsi_14": 49.7,
+          "score": 68,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
