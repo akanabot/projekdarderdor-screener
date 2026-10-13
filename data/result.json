@@ -5004,11 +5004,23 @@
     {
       "date": "2026-10-13",
       "metadata": {
-        "generated_at": "2026-10-13T01:16:31+07:00",
+        "generated_at": "2026-10-13T22:12:55+07:00",
         "status": "partial",
-        "total_passed": 0
+        "total_passed": 1
       },
-      "results": []
+      "results": [
+        {
+          "ticker": "PWON.JK",
+          "ticker_display": "PWON",
+          "price_close": 278,
+          "price_change_pct": 3.73,
+          "volume_ratio": 2.5,
+          "rsi_14": 60.6,
+          "score": 60,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
