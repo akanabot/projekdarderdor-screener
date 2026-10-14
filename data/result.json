@@ -5021,6 +5021,49 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-10-14",
+      "metadata": {
+        "generated_at": "2026-10-14T19:59:55+07:00",
+        "status": "partial",
+        "total_passed": 3
+      },
+      "results": [
+        {
+          "ticker": "SMRA.JK",
+          "ticker_display": "SMRA",
+          "price_close": 264,
+          "price_change_pct": 3.12,
+          "volume_ratio": 1.9,
+          "rsi_14": 49.2,
+          "score": 80,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BRPT.JK",
+          "ticker_display": "BRPT",
+          "price_close": 1430,
+          "price_change_pct": 9.16,
+          "volume_ratio": 3.2,
+          "rsi_14": 41.6,
+          "score": 64,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "PWON.JK",
+          "ticker_display": "PWON",
+          "price_close": 288,
+          "price_change_pct": 3.6,
+          "volume_ratio": 3.0,
+          "rsi_14": 66.9,
+          "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
