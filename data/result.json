@@ -5454,6 +5454,49 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-10-23",
+      "metadata": {
+        "generated_at": "2026-10-23T19:45:19+07:00",
+        "status": "partial",
+        "total_passed": 3
+      },
+      "results": [
+        {
+          "ticker": "TOBA.JK",
+          "ticker_display": "TOBA",
+          "price_close": 520,
+          "price_change_pct": 25.0,
+          "volume_ratio": 7.0,
+          "rsi_14": 60.2,
+          "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "PWON.JK",
+          "ticker_display": "PWON",
+          "price_close": 282,
+          "price_change_pct": 0.71,
+          "volume_ratio": 1.3,
+          "rsi_14": 56.1,
+          "score": 51,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "PGAS.JK",
+          "ticker_display": "PGAS",
+          "price_close": 1355,
+          "price_change_pct": -1.09,
+          "volume_ratio": 1.5,
+          "rsi_14": 45.1,
+          "score": 50,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
