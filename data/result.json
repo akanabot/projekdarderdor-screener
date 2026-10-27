@@ -5518,6 +5518,82 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-10-27",
+      "metadata": {
+        "generated_at": "2026-10-27T20:28:51+07:00",
+        "status": "partial",
+        "total_passed": 6
+      },
+      "results": [
+        {
+          "ticker": "AKRA.JK",
+          "ticker_display": "AKRA",
+          "price_close": 1435,
+          "price_change_pct": 2.5,
+          "volume_ratio": 3.8,
+          "rsi_14": 53.1,
+          "score": 88,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "CPIN.JK",
+          "ticker_display": "CPIN",
+          "price_close": 2780,
+          "price_change_pct": 2.58,
+          "volume_ratio": 4.2,
+          "rsi_14": 45.3,
+          "score": 70,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "HMSP.JK",
+          "ticker_display": "HMSP",
+          "price_close": 675,
+          "price_change_pct": 5.47,
+          "volume_ratio": 2.5,
+          "rsi_14": 58.5,
+          "score": 70,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "ELSA.JK",
+          "ticker_display": "ELSA",
+          "price_close": 685,
+          "price_change_pct": 7.03,
+          "volume_ratio": 2.6,
+          "rsi_14": 56.2,
+          "score": 65,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "PTBA.JK",
+          "ticker_display": "PTBA",
+          "price_close": 3170,
+          "price_change_pct": -1.55,
+          "volume_ratio": 1.6,
+          "rsi_14": 52.6,
+          "score": 60,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "PWON.JK",
+          "ticker_display": "PWON",
+          "price_close": 294,
+          "price_change_pct": 3.52,
+          "volume_ratio": 2.7,
+          "rsi_14": 62.1,
+          "score": 55,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
