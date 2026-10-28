@@ -5594,6 +5594,27 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-10-28",
+      "metadata": {
+        "generated_at": "2026-10-28T21:16:18+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "TOBA.JK",
+          "ticker_display": "TOBA",
+          "price_close": 454,
+          "price_change_pct": -3.4,
+          "volume_ratio": 1.5,
+          "rsi_14": 50.2,
+          "score": 51,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
