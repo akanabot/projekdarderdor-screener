@@ -5647,6 +5647,27 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-10-30",
+      "metadata": {
+        "generated_at": "2026-10-30T21:33:24+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "PGAS.JK",
+          "ticker_display": "PGAS",
+          "price_close": 1320,
+          "price_change_pct": 8.64,
+          "volume_ratio": 2.7,
+          "rsi_14": 46.8,
+          "score": 62,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
