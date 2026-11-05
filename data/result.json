@@ -5686,6 +5686,27 @@
         "total_passed": 0
       },
       "results": []
+    },
+    {
+      "date": "2026-11-05",
+      "metadata": {
+        "generated_at": "2026-11-05T22:42:27+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "UNVR.JK",
+          "ticker_display": "UNVR",
+          "price_close": 1455,
+          "price_change_pct": 4.68,
+          "volume_ratio": 1.7,
+          "rsi_14": 46.5,
+          "score": 85,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
