@@ -5765,11 +5765,34 @@
     {
       "date": "2026-11-18",
       "metadata": {
-        "generated_at": "2026-11-18T00:56:52+07:00",
+        "generated_at": "2026-11-18T23:39:40+07:00",
         "status": "partial",
-        "total_passed": 0
+        "total_passed": 2
       },
-      "results": []
+      "results": [
+        {
+          "ticker": "EXCL.JK",
+          "ticker_display": "EXCL",
+          "price_close": 1715,
+          "price_change_pct": 11.0,
+          "volume_ratio": 4.3,
+          "rsi_14": 48.5,
+          "score": 88,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "BBCA.JK",
+          "ticker_display": "BBCA",
+          "price_close": 5750,
+          "price_change_pct": 4.55,
+          "volume_ratio": 1.4,
+          "rsi_14": 59.6,
+          "score": 51,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
