@@ -5829,6 +5829,15 @@
         "total_passed": 0
       },
       "results": []
+    },
+    {
+      "date": "2026-11-25",
+      "metadata": {
+        "generated_at": "2026-11-25T02:01:29+07:00",
+        "status": "partial",
+        "total_passed": 0
+      },
+      "results": []
     }
   ]
 }
